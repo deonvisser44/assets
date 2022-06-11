@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Earn Your Screentime</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Fri, 27 May 2022 12:33:26 +0530</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <enclosure url="https://earnyourscreentime.com/update/Earn%20Your%20Screentime.zip" sparkle:version="39" sparkle:shortVersionString="1.0" length="11637835" type="application/octet-stream" sparkle:edSignature="wWk5SDLq/IqLtEuLmXlLIB1FVX+6WgMRcwubq8u2+9nNVSG0x8/u15wRwWgJGl0LjubLw6VfBBHCMEiXuwYLCw=="/>
+        </item>
+    </channel>
+</rss>

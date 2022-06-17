@@ -24,7 +24,7 @@
         "beforeYouStartText": "Antes de comenzar, tómate unos momentos para reflexionar sobre por qué desea adoptar estos hábitos. Luego visualízate comenzando la secuencia del hábito. Repase mentalmente cualquiera de los hábitos que le resulten más difíciles. Este proceso ayudará a reducir la \"fricción límbica\", es decir, preparará tu cerebro para hacer los hábitos sin importar nada, incluso si no tienes la aplicación disponible."
     },
     "common": {
-        "emailId": "team@earnyourscreentime.com",
+        "emailId": "team@focusbear.io",
         "unlockMachineButtonText": "Desbloquear la máquina",
         "stayFocusedText": "OK - Mantente concentrado/a durante todo el día!",
         "buttonCancelText": "Cancelar",
@@ -47,7 +47,7 @@
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
             "subTitle": "¿Estás seguro de que quieres renunciar a tus hábitos? Tómate 10 segundos para reflexionar sobre si realmente quieres cancelar.",
-            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque tu rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás desactivando porque la aplicación está dañada, ¡lo siento mucho! Realmente agradeceríamos un correo electrónico con comentarios a team@earnyourscreentime.com",
+            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque tu rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás desactivando porque la aplicación está dañada, ¡lo siento mucho! Realmente agradeceríamos un correo electrónico con comentarios a team@focusbear.io",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonAbortCancelText": "No quise hacer eso. ¡Déjame continuar con mis hábitos!"
         },
@@ -104,7 +104,7 @@
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
             "subTitle": "¿Seguro que quieres salir? Tómate 10 segundos para reflexionar sobre si realmente quieres abandonar.",
-            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho! Valoramos sus comentarios: team@earnyourscreentime.com",
+            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho! Valoramos sus comentarios: team@focusbear.io",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonQuitCancelText": "No quise hacer eso. ¡Déjame continuar con mis hábitos!"
         },
@@ -150,9 +150,13 @@
         "title": "Ingrese la configuración JSON a continuación:",
         "buttonSaveText": "Guardar",
         "visitText": "Visite <SETTINGURL> para generar configuraciones",
-        "settingUrl": "earnyourscreentime.com/settings-generator",
+        "settingUrl": "focusbear.io/settings-generator",
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
+        "buttonEditSettingsText": "NEEDSTRANSLATIONEdit Settings",
+        "buttonAdvancedText": "NEEDSTRANSLATIONAdvanced",
+        "description": "NEEDSTRANSLATIONClick on \"Edit Settings\" to modify your existing settings.\nIf you are an advanced user click on \"Advanced\" to view or edit settings JSON",
+        "settingIsValidText": "NEEDSTRANSLATIONYour settings have been validated and will be applied now.",
         "settingIsNotValidText": "Lo siento, parece que tu configuración no es válida. Genera configuraciones en gainyourscreentime.com/settings"
     },
     "trialNagInfo": {
@@ -194,7 +198,7 @@
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemQuitTitle": "Abandonar",
         "untilTimeText": "Prendido hasta <TIME>",
-        "onText": "Prendido",
+        "onText": "Prendido"
     },
     "preferencesInfo": {
         "titleSync": "Sincronizar datos entre dispositivos:",
@@ -202,7 +206,10 @@
         "buttonSelectFolderText": "Seleccione la carpeta",
         "syncDescription": "Puede especificar una carpeta (por ejemplo, una carpeta de Dropbox) para almacenar los datos de uso, de modo que si completa la rutina de la mañana en una computadora, se sincroniza automáticamente en otros dispositivos. Es necesario seleccionar dicha carpeta sincronizada en todos los dispositivos.",
         "titlePomodoro": "Modo de Pomodoro:",
-        "checkBoxPomodoroText": "Ingrese al modo Pomodoro después de completar la rutina matutina"
+        "checkBoxPomodoroText": "Ingrese al modo Pomodoro después de completar la rutina matutina",
+        "checkBoxReduceMotionText": "NEEDSTRANSLATIONPrefer reduced motion (don't show animated bears)",
+        "titleAskNextHabit": "NEEDSTRANSLATIONNext habit remembrance:",
+        "titleSelectLanguage": "NEEDSTRANSLATIONSelect Language:"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -303,7 +310,7 @@
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
         "buttonCancelText": "Cancelar",
-        "buttonOkText": "OK",
+        "buttonOkText": "OK"
     },
     "enterPasswordViewInfo": {
         "title": "Por favor ingrese la contraseña para continuar",
@@ -315,7 +322,7 @@
         "alertConfirmResetPasswordTitle": "Restablecer la contraseña",
         "alertConfirmResetPasswordSubTitle": "Su contraseña actual se eliminará después de 24 horas. Luego puede establecer una nueva contraseña. ¿Continuar?",
         "alertPasswordResetDoneTitle": "Restablecimiento de contraseña en curso",
-        "alertPasswordResetDoneSubTitle": "Establezca una nueva contraseña después de 24 horas.",
+        "alertPasswordResetDoneSubTitle": "Establezca una nueva contraseña después de 24 horas."
     },
     "passwordPreferencesInfo": {
         "titleSetPassword": "Configurar la contraseña",
@@ -341,5 +348,3 @@
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación."
     }
 }
- 
-

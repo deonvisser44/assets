@@ -132,11 +132,23 @@
                             "logQuantityQuestion": {
                                 "$id": "#/properties/morningHabits/items/anyOf/0/properties/logQuantityQuestion",
                                 "type": "string",
-                                "title": "type",
+                                "title": "question",
                                 "description": "Question to ask when logging quantity data",
                                 "default": "",
                                 "examples": [
                                     "Rate your mood from 0-10"
+                                ]
+                            },
+                            "logQuantityType": {
+                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/logQuantityType",
+                                "type": "string",
+                                "enum": ["average", "total"],
+                                "title": "type",
+                                "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
+                                "default": "total",
+                                "examples": [
+                                    "average",
+                                    "total"
                                 ]
                             },
                             "videoUrl": {
@@ -420,6 +432,21 @@
                                 "default": "",
                                 "examples": [
                                     "Rate your mood from 0 to 10"
+                                ]
+                            },
+                            "logQuantityType": {
+                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/logQuantityType",
+                                "type": "string",
+                                "enum": [
+                                    "average",
+                                    "total"
+                                ],
+                                "title": "type",
+                                "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
+                                "default": "total",
+                                "examples": [
+                                    "average",
+                                    "total"
                                 ]
                             },
                             "videoUrl": {
@@ -918,11 +945,26 @@
                             "logQuantityQuestion": {
                                 "$id": "#/properties/breakActivities/items/anyOf/0/properties/logQuantityQuestion",
                                 "type": "string",
-                                "title": "type",
+                                "title": "logQuantityQuestion",
                                 "description": "Question to ask when logging quantity data",
                                 "default": "",
                                 "examples": [
                                     "Rate your mood from 0-10"
+                                ]
+                            },
+                            "logQuantityType": {
+                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/logQuantityType",
+                                "type": "string",
+                                "enum": [
+                                    "average",
+                                    "total"
+                                ],
+                                "title": "type",
+                                "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
+                                "default": "total",
+                                "examples": [
+                                    "average",
+                                    "total"
                                 ]
                             },
                             "durationSeconds": {

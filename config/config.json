@@ -212,9 +212,9 @@
         "menuItemPreferencesTitle":"Preferences",
         "menuItemExportStatisticsTitle":"Export Statistics",
         "menuItemFocusTitle":"Focus",
-        "menuItemHardcorePomodoroModeTitle":"Hardcore Pomodoro Mode",
+        "menuItemHardcorePomodoroModeTitle":"Super Pomodoro Mode",
         "menuItemStartPomodoroTitle":"Start Pomodoro Mode",
-        "menuItemStopHardcorePomodoroTitle":"Stop Hardcore Pomodoro Mode",
+        "menuItemStopHardcorePomodoroTitle":"Stop Super Pomodoro Mode",
         "menuItemCheckForUpdatesTitle":"Check for updates",
         "menuItemEnableOfficeModeTitle":"Enable office mode",
         "menuItemQuitTitle":"Quit",
@@ -237,10 +237,10 @@
         "buttonAdvancedText":"Advanced...",
         "pomodoroModeDurationText":"Pomodoro Mode duration",
         "minutesText":"minutes",
-        "hardCorePomodoroEnabledText":"Hardcore Pomodoro mode enabled to focus on <FOCUSTYPE> for <COUNT> pomodoros on <DAYS>.",
-        "hardCorePomodoroNotEnabledText":"Hardcore Pomodoro mode not enabled.",
+        "hardCorePomodoroEnabledText":"Super Pomodoro mode enabled to focus on <FOCUSTYPE> for <COUNT> pomodoros on <DAYS>.",
+        "hardCorePomodoroNotEnabledText":"Super Pomodoro mode not enabled.",
         "automaticPomodoroNotEnabledText":"Automatic Pomodoro mode is disabled.",
-        "reviewFocusModeAlertText":"Please review focus mode settings for hardcore pomodoro mode."
+        "reviewFocusModeAlertText":"Please review focus mode settings for super pomodoro mode."
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -274,11 +274,11 @@
         "toolTipAdd":"Add",
         "toolTipRemove":"Remove",
         "toolTipDuplicate":"Duplicate",
-        "hardCorePomodoroIsOnMessageText":"HardCore Pomodoro mode is on. Please abort the HardCore Pomodoro mode to delete it.",
+        "hardCorePomodoroIsOnMessageText":"Super Pomodoro mode is on. Please deactivate super Pomodoro mode to delete it.",
         "buttonAdvancedText":"Advanced...",
         "defaultFocusText":"Complete anarchy! Block nothing 😬",
         "meetingsFocusText":"Meetings",
-        "disablePomodoroModeAlertText":"The selected focus mode is enabled in hardcore pomodoro mode. please disable hardcore pomodoro mode to delete this.",
+        "disablePomodoroModeAlertText":"The selected focus mode is enabled in super pomodoro mode. Please disable super pomodoro mode to delete this.",
         "buttonAddFocusTypeText":"Add Focus Mode",
         "buttonDeleteFocusTypeText":"Delete"
         
@@ -359,10 +359,10 @@
         "questionSecondText":"Which focus mode do you want to use?",
         "buttonEditFocusModeText":"Edit focus modes",
         "buttonLetsDoItText":"Let's do it",
-        "buttonHardcorePomodoroText":"Use hardcore pomodoro mode (lock in the focus mode for multiple pomodoros)",
+        "buttonHardcorePomodoroText":"Use super pomodoro mode (lock in the focus mode for multiple pomodoros)",
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minutes break)",
-        "alertWarningPaswwordSetText":"To make hardcore pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up."
+        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up."
     },
     "logQuantityInfo":{
         "title":"Log Quantity of activity",
@@ -430,18 +430,14 @@
     },
     
     "pomodoroPreferencesAdvancedInfo":{
-        "checkBoxUseHardcorePomodoroText":"Use hardcore pomodoro mode",
+        "checkBoxUseHardcorePomodoroText":"Use super pomodoro mode",
         "descriptionHardcorePomodoroText":"(Lock in the focus mode for multiple pomodoros)",
         "chooseFocusText":"Choose the focus mode",
         "descriptionChooseFocusFirstText":"You won't be able to change the focus mode until the time is up",
         "descriptionChooseFocusSecondText":"(you still get to use any app/website during the 5 minutes break)",
         "HowManyPomodoroText" : "How many pomodoros you want to focus for:",
-        "selectDaysForPomodoroText":"Schedule specific days you want to run the hardcore pomodoro mode after Morning Routine:",
+        "selectDaysForPomodoroText":"Schedule specific days you want to run the super pomodoro mode after Morning Routine:",
         "buttonApplyText":"Apply",
         "selectAtleastOneDayText":"Please select atleast one day."
-    }
-    
-    
+    }   
 }
-
-

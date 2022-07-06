@@ -20,7 +20,8 @@
         "habitsProgressText":"You have completed <duration> of habits - <totalduration> to go. You can do it!",
         "habitsCompleteText":"You have completed <duration> of habits.",
         "whatComesNextButtonText":"What comes next?",
-        "buttonGetKookyText":"Get Kooky"
+        "buttonGetKookyText":"Get Kooky",
+        "buttonReviseQuantityText":"Revise Quantity"
     },
     "common":{
         "emailId":"team@focusbear.io",
@@ -34,7 +35,7 @@
         "buttonExportText":"Export",
         "appName":"Focus Bear",
         "trialExpiredText":"Your trial has expired!",
-        "daysRemainingText":"Trial version - <DAYS> of 7 trial days remaining",
+        "daysRemainingText":"Trial version - <DAYS> of 21 trial days remaining",
         "buttonStatusStateFocusText":"FOCUS",
         "buttonStatusStateOffText":"OFF",
         "buttonStatusStateCallText":"CALL",
@@ -181,8 +182,8 @@
     },
     "trialNagInfo":{
         "title":"Focus Bear",
-        "description":"We offer a 7-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
-        "buttonStartTrialText":"START 7-DAY FREE TRIAL",
+        "description":"We offer a 21-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
+        "buttonStartTrialText":"START 21-DAY FREE TRIAL",
         "buttonContinueTrialText":"Continue Trial",
         "buttonRegisterNowText":"Register Now",
         "trialPeriodText":"Trial period",
@@ -235,12 +236,20 @@
         "titleSelectLanguage":"Select Language:",
         "alertChangeLanguageMessageText":"Are you sure you want to change the language to <LANGUAGE>?",
         "buttonAdvancedText":"Advanced...",
-        "pomodoroModeDurationText":"Pomodoro Mode duration",
+        "pomodoroModeDurationText":"Pomodoro Mode duration:",
         "minutesText":"minutes",
         "hardCorePomodoroEnabledText":"Super Pomodoro mode enabled to focus on <FOCUSTYPE> for <COUNT> pomodoros on <DAYS>.",
         "hardCorePomodoroNotEnabledText":"Super Pomodoro mode not enabled.",
         "automaticPomodoroNotEnabledText":"Automatic Pomodoro mode is disabled.",
-        "reviewFocusModeAlertText":"Please review focus mode settings for super pomodoro mode."
+        "reviewFocusModeAlertText":"Please review focus mode settings for super pomodoro mode.",
+        "breakDurationText":"Break duration:",
+        "titleSurveillance":"Surveillance:",
+        "checkBoxSurveillanceText":"I'm under employer surveillance",
+        "descriptionSurveillanceText":"Hide Focus Bear in screenshots",
+        "workDurationEmptyErrorText":"Work Duration can not be empty.",
+        "workDurationZeroErrorText":"Work Duration can not be 0.",
+        "breakDurationEmptyErrorText":"Break Duration can not be empty.",
+        "breakDurationZeroErrorText":"Break Duration can not be 0."
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -320,12 +329,11 @@
             "questionFirstText":"What did you achieve during this time?",
             "questionSecondText":"Any distractions?",
             "titleIntention":"Your intention was",
-            "buttonTakeBreakText":"Take a 5 minute break"
+            "buttonTakeBreakText":"Take a 5 minutes break"
         },
         "focusSummaryInfo":{
             "title":"You completed <COUNT> focus blocks today.",
             "buttonContinueText":"Continue",
-            "buttonClickHereText":"Click here to see what you achieved.",
             "focusTableColumnFirstText":"Focus type",
             "focusTableColumnSecondText":"Start Time",
             "focusTableColumnThirdText":"Duration",
@@ -355,7 +363,7 @@
     },
     "pomodoroInfo":{
         "title":"It's time to focus",
-        "questionFirstText":"What do you want to achieve in the next 25 minutes?",
+        "questionFirstText":"What do you want to achieve in this pomodoro session?",
         "questionSecondText":"Which focus mode do you want to use?",
         "buttonEditFocusModeText":"Edit focus modes",
         "buttonLetsDoItText":"Let's do it",
@@ -439,5 +447,9 @@
         "selectDaysForPomodoroText":"Schedule specific days you want to run the super pomodoro mode after Morning Routine:",
         "buttonApplyText":"Apply",
         "selectAtleastOneDayText":"Please select atleast one day."
-    }   
+    }
+    
+    
 }
+
+

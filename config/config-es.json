@@ -26,7 +26,8 @@
         "habitsProgressText":"You have completed <duration> of habits - <totalduration> to go. You can do it!",
         "habitsCompleteText":"You have completed <duration> of habits.",
         "whatComesNextButtonText":"What comes next?",
-        "buttonGetKookyText":"Get Kooky"
+        "buttonGetKookyText":"Get Kooky",
+        "buttonReviseQuantityText":"Revise Quantity"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -39,7 +40,7 @@
         "buttonExportText": "Exportar",
         "appName": "Focus Bear",
         "trialExpiredText": "Tu periodo de prueba ha caducado!",
-        "daysRemainingText": "Versión de prueba - <DAYS> de 7 días de prueba restantes",
+        "daysRemainingText": "Versión de prueba - <DAYS> de 21 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
         "buttonStatusStateCallText": "LLAMAR",
@@ -184,8 +185,8 @@
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "Ofrecemos un período de prueba de 7 días, durante el cual puede evaluar Focus Bear en su tiempo libre. La versión de prueba es una versión de prueba TOTALMENTE funcional y puede evaluar todas las funciones.",
-        "buttonStartTrialText": "EMPIEZA LA PRUEBA GRATUITA DE 7 DÍAS",
+        "description": "Ofrecemos un período de prueba de 21 días, durante el cual puede evaluar Focus Bear en su tiempo libre. La versión de prueba es una versión de prueba TOTALMENTE funcional y puede evaluar todas las funciones.",
+        "buttonStartTrialText": "EMPIEZA LA PRUEBA GRATUITA DE 21 DÍAS",
         "buttonContinueTrialText": "Continuar con la prueba",
         "buttonRegisterNowText": "Regístrate ahora",
         "trialPeriodText": "Periodo de prueba",
@@ -240,12 +241,20 @@
         "titleSelectLanguage":"Select Language:",
         "alertChangeLanguageMessageText":"Are you sure you want to change the language to <LANGUAGE>?",
         "buttonAdvancedText":"Advanced...",
-        "pomodoroModeDurationText":"Pomodoro Mode duration",
+        "pomodoroModeDurationText":"Pomodoro Mode duration:",
         "minutesText":"minutes",
         "hardCorePomodoroEnabledText":"Hardcore Pomodoro mode enabled to focus on <FOCUSTYPE> for <COUNT> pomodoros on <DAYS>.",
         "hardCorePomodoroNotEnabledText":"Hardcore Pomodoro mode not enabled.",
         "automaticPomodoroNotEnabledText":"Automatic Pomodoro mode is disabled.",
-        "reviewFocusModeAlertText":"Please review focus mode settings for hardcore pomodoro mode."
+        "reviewFocusModeAlertText":"Please review focus mode settings for hardcore pomodoro mode.",
+        "breakDurationText":"Break duration:",
+        "titleSurveillance":"Surveillance:",
+        "checkBoxSurveillanceText":"I'm under employer surveillance",
+        "descriptionSurveillanceText":"Hide Focus Bear in screenshots",
+        "workDurationEmptyErrorText":"Work Duration can not be empty.",
+        "workDurationZeroErrorText":"Work Duration can not be 0.",
+        "breakDurationEmptyErrorText":"Break Duration can not be empty.",
+        "breakDurationZeroErrorText":"Break Duration can not be 0."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -330,7 +339,6 @@
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloques de enfoque hoy.",
             "buttonContinueText": "Continuar",
-            "buttonClickHereText": "Haga clic aquí para ver lo que ha logrado.",
             "focusTableColumnFirstText": "Tipo de Enfoque",
             "focusTableColumnSecondText": "Hora de inicio",
             "focusTableColumnThirdText":"Duration",
@@ -361,7 +369,7 @@
     },
     "pomodoroInfo": {
         "title": "Es Hora de Enfocarse",
-        "questionFirstText": "¿Qué quieres lograr en los próximos 25 minutos?",
+        "questionFirstText": "What do you want to achieve in this pomodoro session?",
         "questionSecondText": "¿Qué modo de enfoque quieres usar?",
         "buttonEditFocusModeText": "Editar modos de enfoque",
         "buttonLetsDoItText": "Vamos a hacerlo",

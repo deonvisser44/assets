@@ -8,8 +8,8 @@
         ]
     },
     "activityInfo":{
-        "startMorningHabitTitleText":"Good Morning! It’s time to focus. Here are the habits you need to accomplish before you can use your computer.",
-        "startEveningHabitTitleText":"Good Evening! It’s time to focus. Here are the habits you need to accomplish before you can leave for the day.",
+         "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
+        "startEveningHabitTitleText":"Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
         "lastActivityFinishedText":"<ACTIVITY> finished!✅ You’ve earned your screen time. 💪",
@@ -20,7 +20,7 @@
         "habitsProgressText":"You have completed <duration> of habits - <totalduration> to go. You can do it!",
         "habitsCompleteText":"You have completed <duration> of habits.",
         "whatComesNextButtonText":"What comes next?",
-        "buttonGetKookyText":"Get Kooky",
+        "buttonGetKookyText":"Visualize 🧘‍♂️",
         "buttonReviseQuantityText":"Revise Quantity"
     },
     "common":{

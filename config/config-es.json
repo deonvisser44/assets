@@ -6,8 +6,8 @@
         "introActivities": [
             {
                 "name": "Respiración Consciente",
-                "durationSeconds": 60,
-                "videoUrl": [
+                "duration_seconds": 60,
+                "video_urls": [
                     "https://www.youtube.com/watch?v=36mnXAQGRzc"
                 ]
             }

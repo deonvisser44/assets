@@ -2,55 +2,55 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "$id": "http://earnyourscreentime.com/config/settings-schema.json",
     "type": "object",
-    "title": "EYST settings schema",
+    "title": "Focus Bear settings schema",
     "description": "Schema for settings for Earn Your Screen Time",
     "default": {},
     "examples": [
         {
-            "shutOffTime": "19:15",
-            "morningHabits": [
+            "shutdown_time": "19:15",
+            "morning_activities": [
                 {
                     "name": "Yoga",
-                    "durationSeconds": 360,
-                    "videoUrl": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
+                    "duration_seconds": 360,
+                    "video_urls": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
                 },
                 {
                     "name": "Brush teeth",
-                    "durationSeconds": 120
+                    "duration_seconds": 120
                 }
             ],
-            "breakAfterMinutes": 15,
-            "startTime": "4:50",
-            "breakActivities": [
+            "break_after_minutes": 15,
+            "startup_time": "4:50",
+            "break_activities": [
                 {
                     "name": "Mindful breathing",
-                    "videoUrl": "https://www.youtube.com/watch?v=z-3n5iBi4u0",
-                    "durationSeconds": 30
+                    "video_urls": "https://www.youtube.com/watch?v=z-3n5iBi4u0",
+                    "duration_seconds": 30
                 },
                 {
                     "name": "Calisthenics",
-                    "durationSeconds": 30,
-                    "includeInEveryBreak": true
+                    "duration_seconds": 30,
+                    "include_in_every_break": true
                 },
                 {
                     "name": "Chores",
-                    "durationSeconds": 30
+                    "duration_seconds": 30
                 }
             ]
         }
     ],
     "required": [
-        "shutOffTime",
-        "morningHabits",
-        "breakAfterMinutes",
-        "startTime",
-        "breakActivities"
+        "shutdown_time",
+        "morning_activities",
+        "break_after_minutes",
+        "startup_time",
+        "break_activities"
     ],
     "properties": {
-        "shutOffTime": {
-            "$id": "#/properties/shutOffTime",
+        "shutdown_time": {
+            "$id": "#/properties/shutdown_time",
             "type": "string",
-            "title": "Shutoff time",
+            "title": "Shutdown time",
             "description": "When you will turn off your computer (24hr format).",
             "default": "20:00",
             "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
@@ -58,31 +58,31 @@
                 "19:15"
             ]
         },
-        "morningHabits": {
-            "$id": "#/properties/morningHabits",
+        "morning_activities": {
+            "$id": "#/properties/morning_activities",
             "type": "array",
-            "title": "Morning habits",
-            "description": "The morning habits you'll perform",
+            "title": "Morning activities",
+            "description": "The morning activities you'll perform",
             "default": [],
             "examples": [
                 [
                     {
                         "name": "Yoga",
-                        "durationSeconds": 360,
-                        "videoUrl": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
+                        "duration_seconds": 360,
+                        "video_urls": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
                     },
                     {
                         "name": "Brush teeth",
-                        "durationSeconds": 120
+                        "duration_seconds": 120
                     }
                 ]
             ],
             "additionalItems": true,
             "items": {
-                "$id": "#/properties/morningHabits/items",
+                "$id": "#/properties/morning_activities/items",
                 "anyOf": [
                     {
-                        "$id": "#/properties/morningHabits/items/anyOf/0",
+                        "$id": "#/properties/morning_activities/items/anyOf/0",
                         "type": "object",
                         "title": "Morning habit",
                         "description": "Data for the morning habit",
@@ -90,17 +90,17 @@
                         "examples": [
                             {
                                 "name": "Yoga",
-                                "durationSeconds": 360,
-                                "videoUrl": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
+                                "duration_seconds": 360,
+                                "video_urls": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
                             }
                         ],
                         "required": [
                             "name",
-                            "durationSeconds"
+                            "duration_seconds"
                         ],
                         "properties": {
                             "name": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/name",
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/name",
                                 "type": "string",
                                 "title": "The name of the habit",
                                 "description": "Will be displayed when doing your habit.",
@@ -109,28 +109,28 @@
                                     "Yoga"
                                 ]
                             },
-                            "durationSeconds": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/durationSeconds",
+                            "duration_seconds": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/duration_seconds",
                                 "type": "integer",
-                                "title": "durationSeconds",
+                                "title": "duration_seconds",
                                 "description": "How long you will do the habit for (in seconds)",
                                 "default": 0,
                                 "examples": [
                                     360
                                 ]
                             },
-                            "logQuantity": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/logQuantity",
+                            "log_quantity": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/log_quantity",
                                 "type": "boolean",
-                                "title": "logQuantity",
+                                "title": "log_quantity",
                                 "description": "Do you want to log quantity data after this activity?",
                                 "default": false,
                                 "examples": [
                                     true
                                 ]
                             },
-                            "logQuantityQuestion": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/logQuantityQuestion",
+                            "log_quantity_question": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/log_quantity_question",
                                 "type": "string",
                                 "title": "question",
                                 "description": "Question to ask when logging quantity data",
@@ -139,8 +139,8 @@
                                     "Rate your mood from 0-10"
                                 ]
                             },
-                            "logQuantityType": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/logQuantityType",
+                            "log_summary_type": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/log_summary_type",
                                 "type": "string",
                                 "enum": ["average", "total"],
                                 "title": "type",
@@ -151,10 +151,10 @@
                                     "total"
                                 ]
                             },
-                            "videoUrl": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/videoUrl",
+                            "video_urls": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/video_urls",
                                 "type": "array",
-                                "title": "videoUrl",
+                                "title": "video_urls",
                                 "description": "Possible videos to choose from (a random video will be chosen)",
                                 "default": [],
                                 "examples": [
@@ -165,12 +165,12 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/morningHabits/items/anyOf/0/properties/videoUrl/items",
+                                    "$id": "#/properties/morning_activities/items/anyOf/0/properties/video_urls/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/morningHabits/items/anyOf/0/properties/videoUrl/items/anyOf/0",
+                                            "$id": "#/properties/morning_activities/items/anyOf/0/properties/video_urls/items/anyOf/0",
                                             "type": "string",
-                                            "title": "videoUrl",
+                                            "title": "video_urls",
                                             "description": "A youtube video URL to play during this activity.",
                                             "default": "",
                                             "examples": [
@@ -181,10 +181,10 @@
                                     ]
                                 }
                             },
-                            "allowedUrls": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/allowedUrls",
+                            "allowed_urls": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_urls",
                                 "type": "array",
-                                "title": "allowedUrls",
+                                "title": "allowed_urls",
                                 "description": "Possible URLs to access during this activity",
                                 "default": [],
                                 "examples": [
@@ -195,12 +195,12 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/morningHabits/items/anyOf/0/properties/allowedUrls/items",
+                                    "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_urls/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/morningHabits/items/anyOf/0/properties/allowedUrls/items/anyOf/0",
+                                            "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_urls/items/anyOf/0",
                                             "type": "string",
-                                            "title": "allowedUrls",
+                                            "title": "allowed_urls",
                                             "description": "A URL that can be accessed during this activity.",
                                             "default": "",
                                             "examples": [
@@ -211,11 +211,11 @@
                                     ]
                                 }
                             },
-                            "allowedApps": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/allowedApps",
+                            "allowed_apps": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_apps",
                                 "type": "array",
-                                "title": "allowedApps",
-                                "description": "Possible allowedApps to access during this activity",
+                                "title": "allowed_apps",
+                                "description": "Possible allowed_apps to access during this activity",
                                 "default": [],
                                 "examples": [
                                     [
@@ -225,10 +225,10 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/morningHabits/items/anyOf/0/properties/allowedApps/items",
+                                    "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_apps/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/morningHabits/items/anyOf/0/properties/allowedApps/items/anyOf/0",
+                                            "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_apps/items/anyOf/0",
                                             "type": "string",
                                             "title": "app",
                                             "description": "An app that can be accessed during this activity.",
@@ -241,18 +241,18 @@
                                     ]
                                 }
                             },
-                            "type": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/type",
+                            "choice_type": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/choice_type",
                                 "type": "string",
-                                "title": "type",
-                                "description": "Activity type",
+                                "title": "choice_type",
+                                "description": "Choice type",
                                 "default": "",
                                 "examples": [
-                                    "random-choice"
+                                    "random"
                                 ]
                             },
                             "choices": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices",
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices",
                                 "type": "array",
                                 "title": "choices",
                                 "description": "Used if a random choice will be made for this activity",
@@ -261,7 +261,7 @@
                                     [
                                         {
                                             "name": "Pushups",
-                                            "videoUrl": [
+                                            "video_urls": [
                                                 "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                 "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                 "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -269,7 +269,7 @@
                                         },
                                         {
                                             "name": "Situps",
-                                            "videoUrl": [
+                                            "video_urls": [
                                                 "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                 "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                 "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -279,10 +279,10 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices/items",
+                                    "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices/items/anyOf/0",
+                                            "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices/items/anyOf/0",
                                             "type": "object",
                                             "title": "activity choice",
                                             "description": "An option for the activity",
@@ -290,7 +290,7 @@
                                             "examples": [
                                                 {
                                                     "name": "Pushups",
-                                                    "videoUrl": [
+                                                    "video_urls": [
                                                         "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                         "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                         "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -302,7 +302,7 @@
                                             ],
                                             "properties": {
                                                 "name": {
-                                                    "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
+                                                    "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
                                                     "type": "string",
                                                     "title": "name",
                                                     "description": "The name of the activity",
@@ -311,10 +311,10 @@
                                                         "Pushups"
                                                     ]
                                                 },
-                                                "videoUrl": {
-                                                    "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl",
+                                                "video_urls": {
+                                                    "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls",
                                                     "type": "array",
-                                                    "title": "videoUrl",
+                                                    "title": "video_urls",
                                                     "description": "Possible videos to choose from (a random video will be chosen)",
                                                     "default": [],
                                                     "examples": [
@@ -325,12 +325,12 @@
                                                     ],
                                                     "additionalItems": true,
                                                     "items": {
-                                                        "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl/items",
+                                                        "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls/items",
                                                         "anyOf": [
                                                             {
-                                                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl/items/anyOf/0",
+                                                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls/items/anyOf/0",
                                                                 "type": "string",
-                                                                "title": "videoUrl",
+                                                                "title": "video_urls",
                                                                 "description": "A youtube video URL to play during this activity.",
                                                                 "default": "",
                                                                 "examples": [
@@ -353,31 +353,31 @@
                 ]
             }
         },
-        "eveningHabits": {
-            "$id": "#/properties/eveningHabits",
+        "evening_activities": {
+            "$id": "#/properties/evening_activities",
             "type": "array",
-            "title": "Evening habits",
-            "description": "The evening habits you'll perform",
+            "title": "Evening activities",
+            "description": "The evening activities you'll perform",
             "default": [],
             "examples": [
                 [
                     {
                         "name": "Yoga",
-                        "durationSeconds": 360,
-                        "videoUrl": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
+                        "duration_seconds": 360,
+                        "video_urls": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
                     },
                     {
                         "name": "Brush teeth",
-                        "durationSeconds": 120
+                        "duration_seconds": 120
                     }
                 ]
             ],
             "additionalItems": true,
             "items": {
-                "$id": "#/properties/eveningHabits/items",
+                "$id": "#/properties/evening_activities/items",
                 "anyOf": [
                     {
-                        "$id": "#/properties/eveningHabits/items/anyOf/0",
+                        "$id": "#/properties/evening_activities/items/anyOf/0",
                         "type": "object",
                         "title": "Evening habit",
                         "description": "Data for the evening habit",
@@ -385,17 +385,17 @@
                         "examples": [
                             {
                                 "name": "Yoga",
-                                "durationSeconds": 360,
-                                "videoUrl": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
+                                "duration_seconds": 360,
+                                "video_urls": "https://www.youtube.com/watch?v=4C-gxOE0j7s"
                             }
                         ],
                         "required": [
                             "name",
-                            "durationSeconds"
+                            "duration_seconds"
                         ],
                         "properties": {
                             "name": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/name",
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/name",
                                 "type": "string",
                                 "title": "The name of the habit",
                                 "description": "Will be displayed when doing your habit.",
@@ -404,38 +404,38 @@
                                     "Yoga"
                                 ]
                             },
-                            "durationSeconds": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/durationSeconds",
+                            "duration_seconds": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/duration_seconds",
                                 "type": "integer",
-                                "title": "durationSeconds",
+                                "title": "duration_seconds",
                                 "description": "How long you will do the habit for (in seconds)",
                                 "default": 0,
                                 "examples": [
                                     360
                                 ]
                             },
-                            "logQuantity": {
-                                "$id": "#/properties/morningHabits/items/anyOf/0/properties/logQuantity",
+                            "log_quantity": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/log_quantity",
                                 "type": "boolean",
-                                "title": "logQuantity",
+                                "title": "log_quantity",
                                 "description": "Do you want to log quantity data after this activity?",
                                 "default": false,
                                 "examples": [
                                     true
                                 ]
                             },
-                            "logQuantityQuestion": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/logQuantityQuestion",
+                            "log_quantity_question": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/log_quantity_question",
                                 "type": "string",
-                                "title": "logQuantityQuestion",
+                                "title": "log_quantity_question",
                                 "description": "The question to ask when logging quantity",
                                 "default": "",
                                 "examples": [
                                     "Rate your mood from 0 to 10"
                                 ]
                             },
-                            "logQuantityType": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/logQuantityType",
+                            "log_summary_type": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/log_summary_type",
                                 "type": "string",
                                 "enum": [
                                     "average",
@@ -449,10 +449,10 @@
                                     "total"
                                 ]
                             },
-                            "videoUrl": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/videoUrl",
+                            "video_urls": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/video_urls",
                                 "type": "array",
-                                "title": "videoUrl",
+                                "title": "video_urls",
                                 "description": "Possible videos to choose from (a random video will be chosen)",
                                 "default": [],
                                 "examples": [
@@ -463,12 +463,12 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/eveningHabits/items/anyOf/0/properties/videoUrl/items",
+                                    "$id": "#/properties/evening_activities/items/anyOf/0/properties/video_urls/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/eveningHabits/items/anyOf/0/properties/videoUrl/items/anyOf/0",
+                                            "$id": "#/properties/evening_activities/items/anyOf/0/properties/video_urls/items/anyOf/0",
                                             "type": "string",
-                                            "title": "videoUrl",
+                                            "title": "video_urls",
                                             "description": "A youtube video URL to play during this activity.",
                                             "default": "",
                                             "examples": [
@@ -479,10 +479,10 @@
                                     ]
                                 }
                             },
-                            "allowedUrls": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/allowedUrls",
+                            "allowed_urls": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_urls",
                                 "type": "array",
-                                "title": "allowedUrls",
+                                "title": "allowed_urls",
                                 "description": "Possible URLs to access during this activity",
                                 "default": [],
                                 "examples": [
@@ -493,12 +493,12 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/eveningHabits/items/anyOf/0/properties/allowedUrls/items",
+                                    "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_urls/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/eveningHabits/items/anyOf/0/properties/allowedUrls/items/anyOf/0",
+                                            "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_urls/items/anyOf/0",
                                             "type": "string",
-                                            "title": "allowedUrls",
+                                            "title": "allowed_urls",
                                             "description": "A URL that can be accessed during this activity.",
                                             "default": "",
                                             "examples": [
@@ -509,11 +509,11 @@
                                     ]
                                 }
                             },
-                            "allowedApps": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/allowedApps",
+                            "allowed_apps": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_apps",
                                 "type": "array",
-                                "title": "allowedApps",
-                                "description": "Possible allowedApps to access during this activity",
+                                "title": "allowed_apps",
+                                "description": "Possible allowed_apps to access during this activity",
                                 "default": [],
                                 "examples": [
                                     [
@@ -523,10 +523,10 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/eveningHabits/items/anyOf/0/properties/allowedApps/items",
+                                    "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_apps/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/eveningHabits/items/anyOf/0/properties/allowedApps/items/anyOf/0",
+                                            "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_apps/items/anyOf/0",
                                             "type": "string",
                                             "title": "app",
                                             "description": "An app that can be accessed during this activity.",
@@ -539,18 +539,18 @@
                                     ]
                                 }
                             },
-                            "type": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/type",
+                            "choice_type": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/choice_type",
                                 "type": "string",
-                                "title": "type",
-                                "description": "Activity type",
+                                "title": "choice_type",
+                                "description": "Choice type",
                                 "default": "",
                                 "examples": [
-                                    "random-choice"
+                                    "random"
                                 ]
                             },
                             "choices": {
-                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices",
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices",
                                 "type": "array",
                                 "title": "choices",
                                 "description": "Used if a random choice will be made for this activity",
@@ -559,7 +559,7 @@
                                     [
                                         {
                                             "name": "Pushups",
-                                            "videoUrl": [
+                                            "video_urls": [
                                                 "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                 "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                 "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -567,7 +567,7 @@
                                         },
                                         {
                                             "name": "Situps",
-                                            "videoUrl": [
+                                            "video_urls": [
                                                 "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                 "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                 "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -577,10 +577,10 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices/items",
+                                    "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices/items/anyOf/0",
+                                            "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices/items/anyOf/0",
                                             "type": "object",
                                             "title": "activity choice",
                                             "description": "An option for the activity",
@@ -588,7 +588,7 @@
                                             "examples": [
                                                 {
                                                     "name": "Pushups",
-                                                    "videoUrl": [
+                                                    "video_urls": [
                                                         "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                         "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                         "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -600,7 +600,7 @@
                                             ],
                                             "properties": {
                                                 "name": {
-                                                    "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
+                                                    "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
                                                     "type": "string",
                                                     "title": "name",
                                                     "description": "The name of the activity",
@@ -609,10 +609,10 @@
                                                         "Pushups"
                                                     ]
                                                 },
-                                                "videoUrl": {
-                                                    "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl",
+                                                "video_urls": {
+                                                    "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls",
                                                     "type": "array",
-                                                    "title": "videoUrl",
+                                                    "title": "video_urls",
                                                     "description": "Possible videos to choose from (a random video will be chosen)",
                                                     "default": [],
                                                     "examples": [
@@ -623,12 +623,12 @@
                                                     ],
                                                     "additionalItems": true,
                                                     "items": {
-                                                        "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl/items",
+                                                        "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls/items",
                                                         "anyOf": [
                                                             {
-                                                                "$id": "#/properties/eveningHabits/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl/items/anyOf/0",
+                                                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls/items/anyOf/0",
                                                                 "type": "string",
-                                                                "title": "videoUrl",
+                                                                "title": "video_urls",
                                                                 "description": "A youtube video URL to play during this activity.",
                                                                 "default": "",
                                                                 "examples": [
@@ -651,20 +651,20 @@
                 ]
             }
         },
-        "breakAfterMinutes": {
-            "$id": "#/properties/breakAfterMinutes",
+        "break_after_minutes": {
+            "$id": "#/properties/break_after_minutes",
             "type": "integer",
-            "title": "breakAfterMinutes",
+            "title": "break_after_minutes",
             "description": "How frequently you will take a break (in minutes)",
             "default": 0,
             "examples": [
                 15
             ]
         },
-        "startTime": {
-            "$id": "#/properties/startTime",
+        "startup_time": {
+            "$id": "#/properties/startup_time",
             "type": "string",
-            "title": "startTime",
+            "title": "startup_time",
             "description": "When you will start your morning routine (24hr format)",
             "default": "",
             "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
@@ -672,8 +672,8 @@
                 "04:50"
             ]
         },
-        "breakActivities": {
-            "$id": "#/properties/breakActivities",
+        "break_activities": {
+            "$id": "#/properties/break_activities",
             "type": "array",
             "title": "Break Activities",
             "description": "Activities you will do during breaks.",
@@ -682,22 +682,22 @@
                 [
                     {
                         "name": "Mindful breathing",
-                        "videoUrl": "https://www.youtube.com/watch?v=z-3n5iBi4u0",
-                        "durationSeconds": 30
+                        "video_urls": "https://www.youtube.com/watch?v=z-3n5iBi4u0",
+                        "duration_seconds": 30
                     },
                     {
                         "name": "Calisthenics",
-                        "durationSeconds": 30,
-                        "includeInEveryBreak": true
+                        "duration_seconds": 30,
+                        "include_in_every_break": true
                     }
                 ]
             ],
             "additionalItems": true,
             "items": {
-                "$id": "#/properties/breakActivities/items",
+                "$id": "#/properties/break_activities/items",
                 "anyOf": [
                     {
-                        "$id": "#/properties/breakActivities/items/anyOf/0",
+                        "$id": "#/properties/break_activities/items/anyOf/0",
                         "type": "object",
                         "title": "The first anyOf schema",
                         "description": "An explanation about the purpose of this instance.",
@@ -705,18 +705,18 @@
                         "examples": [
                             {
                                 "name": "Mindful breathing",
-                                "videoUrl": "https://www.youtube.com/watch?v=z-3n5iBi4u0",
-                                "durationSeconds": 30,
-                                "includeInEveryBreak": true
+                                "video_urls": "https://www.youtube.com/watch?v=z-3n5iBi4u0",
+                                "duration_seconds": 30,
+                                "include_in_every_break": true
                             }
                         ],
                         "required": [
                             "name",
-                            "durationSeconds"
+                            "duration_seconds"
                         ],
                         "properties": {
                             "name": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/name",
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/name",
                                 "type": "string",
                                 "title": "Name",
                                 "description": "The name of the break activity",
@@ -725,10 +725,10 @@
                                     "Mindful breathing"
                                 ]
                             },
-                            "videoUrl": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/videoUrl",
+                            "video_urls": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/video_urls",
                                 "type": "array",
-                                "title": "videoUrl",
+                                "title": "video_urls",
                                 "description": "Possible videos to choose from (a random video will be chosen)",
                                 "default": [],
                                 "examples": [
@@ -739,12 +739,12 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/breakActivities/items/anyOf/0/properties/videoUrl/items",
+                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/video_urls/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/breakActivities/items/anyOf/0/properties/videoUrl/items/anyOf/0",
+                                            "$id": "#/properties/break_activities/items/anyOf/0/properties/video_urls/items/anyOf/0",
                                             "type": "string",
-                                            "title": "videoUrl",
+                                            "title": "video_urls",
                                             "description": "A youtube video URL to play during this activity.",
                                             "default": "",
                                             "examples": [
@@ -755,10 +755,10 @@
                                     ]
                                 }
                             },
-                            "allowedUrls": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/allowedUrls",
+                            "allowed_urls": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_urls",
                                 "type": "array",
-                                "title": "allowedUrls",
+                                "title": "allowed_urls",
                                 "description": "Possible URLs to access during this activity",
                                 "default": [],
                                 "examples": [
@@ -769,12 +769,12 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/breakActivities/items/anyOf/0/properties/allowedUrls/items",
+                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_urls/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/breakActivities/items/anyOf/0/properties/allowedUrls/items/anyOf/0",
+                                            "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_urls/items/anyOf/0",
                                             "type": "string",
-                                            "title": "allowedUrls",
+                                            "title": "allowed_urls",
                                             "description": "A URL that can be accessed during this activity.",
                                             "default": "",
                                             "examples": [
@@ -785,11 +785,11 @@
                                     ]
                                 }
                             },
-                            "allowedApps": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/allowedApps",
+                            "allowed_apps": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_apps",
                                 "type": "array",
-                                "title": "allowedApps",
-                                "description": "Possible allowedApps to access during this activity",
+                                "title": "allowed_apps",
+                                "description": "Possible allowed_apps to access during this activity",
                                 "default": [],
                                 "examples": [
                                     [
@@ -799,10 +799,10 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/breakActivities/items/anyOf/0/properties/allowedApps/items",
+                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_apps/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/breakActivities/items/anyOf/0/properties/allowedApps/items/anyOf/0",
+                                            "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_apps/items/anyOf/0",
                                             "type": "string",
                                             "title": "app",
                                             "description": "An app that can be accessed during this activity.",
@@ -815,20 +815,20 @@
                                     ]
                                 }
                             },
-                            "type": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/type",
+                            "choice_type": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/choice_type",
                                 "type": "string",
-                                "title": "type",
-                                "description": "Activity type",
+                                "title": "choice_type",
+                                "description": "Choice type",
                                 "default": "",
                                 "examples": [
-                                    "random-choice"
+                                    "random"
                                 ]
                             },
-                            "isOfficeFriendly": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/isOfficeFriendly",
+                            "is_office_friendly": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/is_office_friendly",
                                 "type": "boolean",
-                                "title": "isOfficeFriendly",
+                                "title": "is_office_friendly",
                                 "description": "Is this activity safe to perform around other people?",
                                 "default": false,
                                 "examples": [
@@ -837,7 +837,7 @@
                                 ]
                             },
                             "choices": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices",
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/choices",
                                 "type": "array",
                                 "title": "choices",
                                 "description": "Used if a random choice will be made for this activity",
@@ -846,7 +846,7 @@
                                     [
                                         {
                                             "name": "Pushups",
-                                            "videoUrl": [
+                                            "video_urls": [
                                                 "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                 "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                 "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -854,7 +854,7 @@
                                         },
                                         {
                                             "name": "Situps",
-                                            "videoUrl": [
+                                            "video_urls": [
                                                 "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                 "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                 "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -864,10 +864,10 @@
                                 ],
                                 "additionalItems": true,
                                 "items": {
-                                    "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices/items",
+                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items",
                                     "anyOf": [
                                         {
-                                            "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices/items/anyOf/0",
+                                            "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0",
                                             "type": "object",
                                             "title": "activity choice",
                                             "description": "An option for the activity",
@@ -875,7 +875,7 @@
                                             "examples": [
                                                 {
                                                     "name": "Pushups",
-                                                    "videoUrl": [
+                                                    "video_urls": [
                                                         "https://www.youtube.com/watch?v=BWk_hqFGxfE",
                                                         "https://www.youtube.com/watch?v=W1I9M7g6VK8",
                                                         "https://www.youtube.com/watch?v=z-3n5iBi4u0"
@@ -887,7 +887,7 @@
                                             ],
                                             "properties": {
                                                 "name": {
-                                                    "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
+                                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/name",
                                                     "type": "string",
                                                     "title": "name",
                                                     "description": "The name of the activity",
@@ -896,10 +896,10 @@
                                                         "Pushups"
                                                     ]
                                                 },
-                                                "videoUrl": {
-                                                    "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl",
+                                                "video_urls": {
+                                                    "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls",
                                                     "type": "array",
-                                                    "title": "videoUrl",
+                                                    "title": "video_urls",
                                                     "description": "Possible videos to choose from (a random video will be chosen)",
                                                     "default": [],
                                                     "examples": [
@@ -910,12 +910,12 @@
                                                     ],
                                                     "additionalItems": true,
                                                     "items": {
-                                                        "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl/items",
+                                                        "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls/items",
                                                         "anyOf": [
                                                             {
-                                                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/choices/items/anyOf/0/properties/videoUrl/items/anyOf/0",
+                                                                "$id": "#/properties/break_activities/items/anyOf/0/properties/choices/items/anyOf/0/properties/video_urls/items/anyOf/0",
                                                                 "type": "string",
-                                                                "title": "videoUrl",
+                                                                "title": "video_urls",
                                                                 "description": "A youtube video URL to play during this activity.",
                                                                 "default": "",
                                                                 "examples": [
@@ -932,28 +932,28 @@
                                     ]
                                 }
                             },
-                            "logQuantity": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/logQuantity",
+                            "log_quantity": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/log_quantity",
                                 "type": "boolean",
-                                "title": "logQuantity",
+                                "title": "log_quantity",
                                 "description": "Do you want to log quantity data after this activity?",
                                 "default": false,
                                 "examples": [
                                     true
                                 ]
                             },
-                            "logQuantityQuestion": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/logQuantityQuestion",
+                            "log_quantity_question": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/log_quantity_question",
                                 "type": "string",
-                                "title": "logQuantityQuestion",
+                                "title": "log_quantity_question",
                                 "description": "Question to ask when logging quantity data",
                                 "default": "",
                                 "examples": [
                                     "Rate your mood from 0-10"
                                 ]
                             },
-                            "logQuantityType": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/logQuantityType",
+                            "log_summary_type": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/log_summary_type",
                                 "type": "string",
                                 "enum": [
                                     "average",
@@ -967,8 +967,8 @@
                                     "total"
                                 ]
                             },
-                            "durationSeconds": {
-                                "$id": "#/properties/breakActivities/items/anyOf/0/properties/durationSeconds",
+                            "duration_seconds": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/duration_seconds",
                                 "type": "integer",
                                 "title": "duration (seconds)",
                                 "description": "How long the break activity should last for",
@@ -977,8 +977,8 @@
                                     30
                                 ]
                             },
-                            "includeInEveryBreak": {
-                                "$id": "#/properties/breakActivities/items/anyOf/1/properties/includeInEveryBreak",
+                            "include_in_every_break": {
+                                "$id": "#/properties/break_activities/items/anyOf/1/properties/include_in_every_break",
                                 "type": "boolean",
                                 "title": "Include in every break",
                                 "description": "If you want to do an activity every break, you can set this to true. We'll always use this activity plus randomly choose one non-mandatory activity.",
@@ -986,6 +986,14 @@
                                 "examples": [
                                     true
                                 ]
+                            },
+                            "allowed_focus_mode_id": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/allowed_focus_mode_id",
+                                "type": "string",
+                                "title": "allowed_focus_mode_id",
+                                "description": "Allowed Focus Mode ID",
+                                "default": "",
+                                "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
                             }
                         },
                         "additionalProperties": false

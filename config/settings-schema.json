@@ -346,6 +346,14 @@
                                         }
                                     ]
                                 }
+                            },
+                            "allowed_focus_mode_id": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/allowed_focus_mode_id",
+                                "type": "string",
+                                "title": "allowed_focus_mode_id",
+                                "description": "Allowed Focus Mode ID",
+                                "default": "",
+                                "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
                             }
                         },
                         "additionalProperties": false
@@ -644,6 +652,14 @@
                                         }
                                     ]
                                 }
+                            },
+                            "allowed_focus_mode_id": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/allowed_focus_mode_id",
+                                "type": "string",
+                                "title": "allowed_focus_mode_id",
+                                "description": "Allowed Focus Mode ID",
+                                "default": "",
+                                "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
                             }
                         },
                         "additionalProperties": false

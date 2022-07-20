@@ -49,6 +49,33 @@
       a {
         font-weight: bold;
       }
+
+      #focusTipWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        position: absolute;
+        top: 62vh;
+      }
+
+      .tipText {
+        font-size: 14px;
+        width: 100%;
+        margin: 0;
+        text-align: justify;
+      }
+
+      #showFocusTip {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .centeredText {
+        text-align: center;
+        width: 100% !important;
+      }
     </style>
     <link rel="icon" href="favicon.ico" />
   </head>
@@ -57,6 +84,7 @@
       <img src="logo.svg" alt="Earn Your Screen Time" />
       <h1 id="focusTitle"></h1>
       <div id="progressWrapper"></div>
+      <div id="focusTipWrapper"></div>
       <p id="focusEndNotice"></p>
     </div>
 
@@ -78,7 +106,15 @@
       );
       const focus_mode = urlParams.get("focus_mode");
       const focusEndTime = urlParams.get("focus_mode_end_time");
-      document.getElementById("focusTitle").innerText =
+      const block_type = urlParams.get("block_type")
+
+      if(block_type === "always-block") {
+        document.getElementById("focusTitle").innerText =
+        "You said this URL should always be blocked";
+        document.getElementById("progressWrapper").innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>Back to your plans for world domination! Save ${old_url} for when you've finished boiling the oceans.</h6></div>`
+        document.getElementById('focusTipWrapper').innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`
+      } else {
+        document.getElementById("focusTitle").innerText =
         "Let's keep the focus on " + focus_mode;
       const endTime = moment(focusEndTime, "YYYY-MM-DDThh:mm:ss");
       let refreshIntervalId = setInterval(
@@ -114,6 +150,19 @@
         1000,
         endTime
       );
+      }
+
+      document.getElementById('showFocusTip').onclick = function() {
+        document.getElementById('focusTipWrapper').innerHTML = 
+        `<div><p class='tipText'>Want to reprogram your brain so you stay on task during focus blocks?
+                    <a href="https://journals.sagepub.com/doi/abs/10.1177/1539449219876877?journalCode=otjb&">Research into breaking bad habits</a> indicates that if you take a positive action immediately after doing a bad habit,
+                    you'll start to disrupt the neural triggers for the bad habit. For example, you just opened ${old_url} when you were intending to focus${
+              focus_mode ? ` on ${focus_mode}` : ``
+            }. Try doing some deep breathing for 5 seconds,
+                    get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty).
+      If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.
+                  </p></div>`
+      }
     </script>
   </body>
 </html>

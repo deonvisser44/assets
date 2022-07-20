@@ -109,8 +109,7 @@
       const block_type = urlParams.get("block_type")
 
       if(block_type === "always-block") {
-        document.getElementById("focusTitle").innerText =
-        "You said this URL should always be blocked";
+        document.getElementById("focusTitle").innerText ="You said this URL should always be blocked";
         document.getElementById("progressWrapper").innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>Back to your plans for world domination! Save ${old_url} for when you've finished boiling the oceans.</h6></div>`
         document.getElementById('focusTipWrapper').innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`
       } else {

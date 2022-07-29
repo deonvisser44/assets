@@ -294,7 +294,7 @@
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
-        "runScriptAfterText":"Run apple script after starting focus mode.",
+        "runScriptAfterText":"Run apple script after finishing focus mode.",
         "titleCurrentAppleScript":"Current Apple script:",
         "buttonSelectScriptText":"Select Apple script",
         "titleBlockedUrls":"Blocked URLs",

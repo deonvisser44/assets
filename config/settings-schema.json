@@ -468,10 +468,7 @@
                             "log_summary_type": {
                                 "$id": "#/properties/evening_activities/items/anyOf/0/properties/log_summary_type",
                                 "type": "string",
-                                "enum": [
-                                    "average",
-                                    "total"
-                                ],
+                                "enum": ["AVG", "SUM"],
                                 "title": "type",
                                 "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
                                 "default": "total",
@@ -1020,10 +1017,7 @@
                             "log_summary_type": {
                                 "$id": "#/properties/break_activities/items/anyOf/0/properties/log_summary_type",
                                 "type": "string",
-                                "enum": [
-                                    "average",
-                                    "total"
-                                ],
+                                "enum": ["AVG", "SUM"],
                                 "title": "type",
                                 "description": "How should the quantity be reported? Average (e.g. mood) or total (e.g. total pushups)",
                                 "default": "total",

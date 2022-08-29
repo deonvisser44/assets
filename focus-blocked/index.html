@@ -108,8 +108,8 @@
       const focusEndTime = urlParams.get("focus_mode_end_time");
       const block_type = urlParams.get("block_type")
 
-      if(block_type === "always-block") {
-        document.getElementById("focusTitle").innerText ="You said this URL should always be blocked";
+      if(block_type === "always-blocked") {
+        document.getElementById("focusTitle").innerText ="This site is always blocked";
         document.getElementById("progressWrapper").innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>Back to your plans for world domination! Save ${old_url} for when you've finished boiling the oceans.</h6></div>`
         document.getElementById('focusTipWrapper').innerHTML = `<a id='showFocusTip'>Get a tip for staying focused</a>`
       } else {

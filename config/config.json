@@ -42,7 +42,7 @@
         "uninstallConfirmText":"Are you sure you want to giveup all your habits and uninstall Focus Bear?",
         "yesText":"Yes",
         "noText":"No",
-        "uninstallDoneText":"All the app related processes will abort and the app will close itself and then you can drag the app and move to trash/bin.",
+        "uninstallDoneText":"All the app related processes will stop and the app will close itself and then you can drag the app and move to trash/bin.",
         "buttonUninstallText":"Uninstall Focus Bear",
         "shutdownNotificationTitle":"It's time to wrap up for the day. Your shutdown time is in 5 minutes.",
         "appBlockNotificationTitle":"<APP_NAME> isn't allowed in the <FOCUS_NAME> focus mode.",
@@ -63,15 +63,15 @@
         "andText":"and"
     },
     "abortInfo":{
-        "abortingTitle":"Aborting..",
+        "abortingTitle":"Cancelling..",
         "abortingCountDownInfo":{
-            "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about aborting.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re aborting because the app is broken, really sorry!!",
+            "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about cancelling.",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonAbortCancelText":"I didn’t mean it. Let me do my habits!"
         },
         "abortingConfirmInfo":{
-            "subTitle":"Can you share why you're aborting?",
+            "subTitle":"Can you share why you're cancelling?",
             "dropDown_0":{
                 "title":"Select a reason"
             },
@@ -117,15 +117,15 @@
             },
         },
         "abortDoneInfo":{
-            "title":"Aborted",
-            "subTitle":"You’ve successfully aborted Focus Bear. The app won’t show habit prompts until you activate it again from the menu icon. If you aborted it because of a problem with the app, please email"
+            "title":"Deactivated",
+            "subTitle":"You’ve successfully deactivated Focus Bear. The app won’t show habit prompts until you activate it again from the menu icon. If you deactivated it because of a problem with the app, please email"
         }
     },
     "quitInfo":{
         "quittingTitle":"Quitting..",
         "quittingCountDownInfo":{
             "subTitle":"Are you sure you want to Quit? Please take 10 seconds to reflect on whether you are serious about quitting.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re aborting because the app is broken, really sorry!!",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonQuitCancelText":"I didn’t mean it. Let me do my habits!"
         },
@@ -278,7 +278,7 @@
         "urlAlreadyExistsText":"<APPNAME> already exists in the list.",
         "focusCanNotDeleteTitle":"Can not delete.",
         "focusCanNotDeleteSubTitle":"The Default focus type cannot be deleted.",
-        "focusModeOnText":"Focus mode is on. Please abort the focus mode to delete it.",
+        "focusModeOnText":"Focus mode is on. Please deactivate the focus mode to delete it.",
         "duplicateText":"Duplicate",
         "toolTipAdd":"Add",
         "toolTipRemove":"Remove",
@@ -294,7 +294,7 @@
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
-        "runScriptAfterText":"Run apple script after starting focus mode.",
+        "runScriptAfterText":"Run apple script after finishing focus mode.",
         "titleCurrentAppleScript":"Current Apple script:",
         "buttonSelectScriptText":"Select Apple script",
         "titleBlockedUrls":"Blocked URLs",
@@ -305,7 +305,7 @@
         "toolTipRemove":"Remove"
     },
     "focusInfo":{
-        "focusAlreadyRunningText":"A focus mode is already running. Please abort the running focus mode to start a new one.",
+        "focusAlreadyRunningText":"A focus mode is already running. Please deactivate the running focus mode to start a new one.",
         "startingFocusModeInfo":{
             "buttonStartFocusText":"Start Focus",
             "howMuchTimeText":"How much time to focus for:",
@@ -315,13 +315,13 @@
             "questionText":"What do you plan to achieve during this focus block?"
         },
         "abortingFocusModeInfo":{
-            "title":"Aborting Focus type - <FOCUSTYPE>",
-            "questionText":"Can you share why you're aborting?",
+            "title":"Deactivating Focus Block - <FOCUSTYPE>",
+            "questionText":"Can you share why you're deactivating?",
             "reasonsFirstText":"I achieved what I wanted to too early.",
             "reasonsSecondText":"I have an emergency",
             "reasonsThirdText":"Focus mode is not working properly.",
             "buttonCancelText":"Cancel",
-            "buttonAbortFocusText":"Abort Focus"
+            "buttonAbortFocusText":"Deactivate Focus Block"
         },
         "focusCompletedInfo":{
             "title":"You did it!",
@@ -396,7 +396,7 @@
         "titleChangePassword":"Change Password",
         "newPasswordPlaceholderText":"New Password",
         "confirmPasswordPlaceholderText":"Confirm Password",
-        "infoText":"You will need to enter your password - When opening preferences, When aborting an evening routine, When aborting the morning routine.",
+        "infoText":"You will need to enter your password - When opening preferences, When cancelling an evening routine, When cancelling the morning routine.",
         "buttonSetPasswordText":"Set Password",
         "buttonChangePasswordText":"Change Password",
         "passwordNotSetText":"You do not have a password set.",
@@ -447,9 +447,5 @@
         "selectDaysForPomodoroText":"Schedule specific days you want to run the super pomodoro mode after Morning Routine:",
         "buttonApplyText":"Apply",
         "selectAtleastOneDayText":"Please select atleast one day."
-    }
-    
-    
+    }   
 }
-
-

@@ -140,15 +140,16 @@
       } else {
         document.getElementById('focusTitle').innerText =
           "Let's keep the focus on " + focus_mode;
-        const endTime = moment(focusEndTime, 'YYYY-MM-DDThh:mm:ss');
+        const endTime = moment(focusEndTime, 'YYYY-MM-DDThh:mm:ss').utc();
         let refreshIntervalId = setInterval(
           () => {
-            const now = moment();
-            if (endTime.diff(now, 'minutes') > 0) {
+            const now = moment().toDate();
+            const nowAsUtc = moment(now.toISOString(), 'YYYY-MM-DDThh:mm:ss').utc()
+            if (endTime.diff(nowAsUtc, 'minutes') > 0) {
               document.getElementById(
                 'progressWrapper'
               ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
-                .duration(endTime.diff(now))
+                .duration(endTime.diff(nowAsUtc))
                 .humanize(true)}</p> <a href='${old_url}'>Original URL</a>`;
             } else {
               clearInterval(refreshIntervalId);

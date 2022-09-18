@@ -4,7 +4,7 @@
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "I've set up a focus mode for you that has some common apps and URLs you might want to use when you're working. Open the settings from the Focus Bear menu to change what apps and URLs are allowed.",
         "introActivities": [
-            { "name": "Mindful Breathing", "duration_seconds": 60, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
+            { "name": "Mindful Breathing", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
         ]
     },
     "activityInfo":{
@@ -38,7 +38,7 @@
         "buttonExportText":"Export",
         "appName":"Focus Bear",
         "trialExpiredText":"Your trial has expired!",
-        "daysRemainingText":"Trial version - <DAYS> of 21 trial days remaining",
+        "daysRemainingText":"Trial version - <DAYS> of 31 trial days remaining",
         "buttonStatusStateFocusText":"FOCUS",
         "buttonStatusStateOffText":"OFF",
         "buttonStatusStateCallText":"CALL",
@@ -71,7 +71,8 @@
         "buttonSelectReasonText": "Select a reason",
         "brokenAppReasonText": "The app is broken",
         "habitsHardReasonText": "My habits are too hard - I can't handle them",
-        "emailTitle": "Your Email (if you want us to reply):"
+        "emailTitle": "Your Email (if you want us to reply):",
+        "buttonPostponeText": "Postpone"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -193,8 +194,8 @@
     },
     "trialNagInfo":{
         "title":"Focus Bear",
-        "description":"We offer a 21-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
-        "buttonStartTrialText":"START 21-DAY FREE TRIAL",
+        "description":"We offer a 31-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
+        "buttonStartTrialText":"START 31-DAY FREE TRIAL",
         "buttonContinueTrialText":"Continue Trial",
         "buttonRegisterNowText":"Register Now",
         "trialPeriodText":"Trial period",
@@ -261,7 +262,9 @@
         "workDurationZeroErrorText":"Work Duration can not be 0.",
         "breakDurationEmptyErrorText":"Break Duration can not be empty.",
         "breakDurationZeroErrorText":"Break Duration can not be 0.",
-        "versionText": "version:"
+        "versionText": "version:",
+        "titleSound":"Sound:",
+        "checkBoxSoundText":"Play sound effects"
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -358,7 +361,8 @@
             "titleActivitySummaryText":"Activity Summary:",
             "titleFocusSummaryText":"Focus Summary:",
             "totalFocusTimeText":"Total focus time: <TIME>",
-            "buttonNeedMoreTimeText":"I need one more minute"
+            "buttonNeedMoreTimeText":"I need one more minute",
+            "buttonStillNeedMoreTimeText":"I still need to work more"
         },
         "discourageDefaultFocusInfo":{
             "title":"Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
@@ -421,7 +425,10 @@
         "passwordSetAlertTitle":"Password successfully set.",
         "passwordChagedAlertTitle":"Password successfully changed.",
         "passwordNotMatchAlertTitle":"Passwords do not match.",
-        "passwordNotMatchAlertSubTitle":"Confirm Password does not match with the main password. Please re enter."
+        "passwordNotMatchAlertSubTitle":"Confirm Password does not match with the main password. Please re enter.",
+        "buttonDisablePasswordText":"Disable Password",
+        "passwordDisableAskText":"Are you sure you want to disable your password?",
+        "passwordDisableDoneText":"Your password has been disabled."
     },
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
@@ -465,8 +472,9 @@
         "titleNameText": "Name:",
         "titleEmailIdText": "Email Id:",
         "buttonLogoutText": "Logout",
-        "registeredVersionText": "Registered version",
-        "logoutAlertText": "Are you sure you want to logout?"
+        "registeredVersionText": "Registered Version",
+        "logoutAlertText": "Are you sure you want to logout?",
+        "titleUserIdText": "User Id:"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for few Minutes.",
@@ -478,5 +486,18 @@
         "buttonPostponeBreakText": "Postpone Break",
         "buttonAbortBreakText": "Abort Break Activity",
         "postponedLastBreakText": "You postponed the last break - are you sure you can't make time for the break now?"
+    },
+    "brainDumpVcInfo": {
+        "title": "Focus Bear - Brain dump",
+        "titleIntentionText": "Intention:",
+        "titleTimeRemainingText": "Time remaining:",
+        "titleWorkNoteFirst": "Things I'll do in my next break:",
+        "titleWorkNoteSecond": "Things you wanted to do in your break:"
+    },
+    "askLogInVcInfo": {
+        "title": "Win your habits.\nAmp up your productivity.",
+        "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you Set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
+        "buttonSignInText": "Sign In",
+        "buttonSignUpText": "Sign Up"
     }
 }

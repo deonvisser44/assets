@@ -1,6 +1,6 @@
 {"welcomeInfo":
     {"welcomeMessageHeading": "Welcome to Focus Bear",
-        "welcomeMessageIntro": "Every morning, I will stop you from satisfying your urge to check email/Facebook and force you to do your morning routine instead. You can configure your own routine later but for now, I’ll give you a suggested activity: 1 minute of mindful breathing. While you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
+        "welcomeMessageIntro": "Every morning, I will help you quiet your urge to check email/Facebook and help you to do your morning routine instead. You can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing. While you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "I've set up a focus mode for you that has some common apps and URLs you might want to use when you're working. Open the settings from the Focus Bear menu to change what apps and URLs are allowed.",
         "introActivities": [
@@ -14,7 +14,7 @@
         "activityFinishedText":"<ACTIVITY> finished!✅",
         "lastActivityFinishedText":"<ACTIVITY> finished!✅ You’ve earned your screen time. 💪",
         "startBreakActivityTitleText":"It’s time for a break. Do <TIME> of <ACTIVITY> to earn more screentime.",
-        "doSomeActivityText":"Do some <ACTIVITY>.",
+        "doSomeActivityText":"<ACTIVITY>",
         "beforeYouStartText":"Before you start, take a few moments to reflect on why you want to do these habits. Then visualise yourself beginning the habit sequence. Mentally walk through any of the habits that are going to be harder. This process will help reduce \"limbic friction\", i.e. prime your brain to do the habits no matter what, even if you don't have the app available.",
         "beforeYouBeginText":"Before you begin, take 30 seconds to visualise yourself performing each of the habits. This sounds kooky but research indicates that doing a mental rehearsal like this increases the likelihood of you completing the habits and makes the habits more sticky so that even if you don't have access to your computer/this app, you'll still do all the habits",
         "habitsProgressText":"You have completed <duration> of habits - <totalduration> to go. You can do it!",

@@ -148,7 +148,7 @@
                 'progressWrapper'
               ).innerHTML = `<p id="focusProgressNotice">Your focus block will end ${moment
                 .duration(endTime.diff(moment()))
-                .humanize(true)}</p> <a href='${current_url}'>Original URL</a>`;
+                .humanize(true)}</p> <a href='${current_url}'>Original URL ${old_url}</a>`;
             } else {
               clearInterval(refreshIntervalId);
               document.getElementById('focusTitle').innerText =

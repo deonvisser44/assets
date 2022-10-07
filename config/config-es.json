@@ -3,7 +3,7 @@
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
         "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
-        "preloadFocusModesDoneText": "Te he configurado un modo de enfoque que tiene algunas aplicaciones y URLs que quizás quieras usar cuando estés trabajando. Abre la configuración desde el menú Focus Bear para cambiar cuáles aplicaciones y URLs están permitidas.",
+        "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
             {
                 "name": "Respiración Consciente",
@@ -492,7 +492,7 @@
         "titleNameText": "Nombre:",
         "titleEmailIdText": "Correo electrónico:",
         "buttonLogoutText": "Cerrar Sesión",
-        "registeredVersionText": "Versión registrada",
+        "registeredVersionText": "Suscripción activa",
         "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
         "titleUserIdText": "Identificación de usuario:"
         "restoreText":"If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
@@ -519,7 +519,7 @@
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:"
     },
     "askLogInVcInfo": {
-        "title": "Gana con tus hábitos. Aumenta tu productividad.",
+        "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate"

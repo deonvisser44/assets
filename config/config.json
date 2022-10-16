@@ -493,7 +493,7 @@
         "buttonRestoreText":"Sync Payment Status"
     },
     "activityPostponeInfo": {
-        "postponeHabitsText": "If you have something urgent, you can postpone Habits for few Minutes.",
+        "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
         "postponeBreakText": "If you have something urgent, you can postpone the Break Activity for 5 Minutes.",
         "buttonTakeBreakText": "Argh ok I'll take a break!",
         "selectMinutesText": "Select minutes to postpone:",
@@ -530,7 +530,7 @@
         "subscriptionExpiredText":"Your subscription has expired"
     },
     "onboardingPostponeVcInfo": {
-        "title": "If you have something urgent, you can postpone the Onboarding process for few Minutes.",
+        "title": "If you have something urgent, you can postpone the Onboarding process for a few minutes.",
         "selectMinutesText": "Select minutes to postpone:",
         "buttonPostponeText": "Postpone Onboarding"
     },

@@ -39,6 +39,7 @@
         "unlockMachineButtonText": "Desbloquear la computadora",
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
+	"letsCreatAccountText":"Now let's set up an account for you",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -80,7 +81,15 @@
         "habitsHardReasonText": "Mis hábitos son demasiado difíciles - no los puedo realizar",
         "emailTitle": "Tu correo electrónico (si deseas que te respondamos):",
         "buttonPostponeText": "Posponer",
-        "noPurchasesFoundText": "No purchases found."
+        "noPurchasesFoundText": "No purchases found.",
+        "someProblemInCredentialText": "There was a problem connecting to the backend server. Please login again.",
+        "askUninstallReasonText2": "Damn sorry, it seems like we let you down. We're in the early stages of this product and really want to get feedback to make it better. Could you tell us why you're uninstalling?",
+        "minimumCharacterText": "(Minimum 10 characters)",
+        "secondsText":"seconds",
+        "minuteText":"minute",
+        "minutesText":"minutes",
+        "hourText":"hour",
+        "hoursText":"hours"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -248,7 +257,8 @@
         "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro).",
         "menuItemUpgradeNowTitle":"Upgrade Now",
         "subscriptionExpiredText":"Your subscription has expired",
-        "menuItemStartBreakTitle":"Start Break"
+        "menuItemStartBreakTitle":"Start Break",
+        "menuItemBrainDumpTitle":"Brain Dump"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -494,7 +504,7 @@
         "buttonLogoutText": "Cerrar Sesión",
         "registeredVersionText": "Suscripción activa",
         "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
-        "titleUserIdText": "Identificación de usuario:"
+        "titleUserIdText": "Identificación de usuario:",
         "restoreText":"If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
         "buttonRestoreText":"Sync Payment Status"
     },
@@ -546,7 +556,9 @@
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText":"A bit later please",
         "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved."
+        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
+        "confirmText": "Just want to double confirm you're ok with this - for the next minute, you're not going to be able to use other apps while you go through onboarding.",
+        "buttonConfirmLetsDoItText": "Yup let's do it - I've got 1 minute"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {

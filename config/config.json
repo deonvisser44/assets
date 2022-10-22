@@ -409,7 +409,7 @@
         "buttonHardcorePomodoroText":"Use super pomodoro mode (lock in the focus mode for multiple pomodoros)",
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minutes break)",
-        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
+        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go."
     },
     "logQuantityInfo":{

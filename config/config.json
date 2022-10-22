@@ -166,12 +166,12 @@
             "dropDown_2":{
                 "title":"The app is broken",
                 "description":"Oh no! We're really sorry. Can you please let us know what happened?﹡",
-                "finalDescription":"We hope you will start the habits back soon! See you soon."
+                "finalDescription":"Thanks for letting us know. We'll fix it ASAP."
             },
             "dropDown_3":{
                 "title":"Something else",
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
-                "finalDescription":"We hope you will start the habits back soon! See you soon."
+                "finalDescription":"Thanks for letting us know. All the best."
             }
         }
     },

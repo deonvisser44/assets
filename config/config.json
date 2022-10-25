@@ -340,7 +340,7 @@
         "pleaseSelectScriptText":"Please select a apple script.",
         "toolTipAdd":"Add",
         "toolTipRemove":"Remove",
-        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block games.google.com"
+        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block tv.google.com"
     },
     "focusInfo":{
         "focusAlreadyRunningText":"A focus mode is already running. Please deactivate the running focus mode to start a new one.",
@@ -456,7 +456,7 @@
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
         "invalidDomainText":"Adding * will block all urls. Please use another combination.",
-        "subTitleText":"\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\""
+        "subTitleText":"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day."
     },
     "rememberNextHabitViewInfo":{
         "randomPhraseRightChoice1":"Right on!",

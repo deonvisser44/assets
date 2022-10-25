@@ -89,7 +89,10 @@
         "minuteText": "minuto",
         "minutesText": "minutos",
         "hourText": "hora",
-        "hoursText": "horas"
+        "hoursText": "horas",
+        "timeIncorrectText":"Your system time seems to be incorrect - it's saying the current time is <SYSTEM_TIME> but the actual time is <TRUE_TIME>. Focus Bear won't work properly if you don't have your system time configured correctly. Once you have adjusted the time settings, click \"I am ready to start my habits\" button below.",
+        "buttonIAmReadyText":"I am ready to start my habits",
+        "buttonInstructionsText":"Click Here to see instructions for fixing your time settings"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -423,7 +426,8 @@
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "enterValidValueText": "Por favor ingrese una cifra válida.",
-        "quantityIsEmptyText": "La cantidad de registro no puede estar vacía."
+        "quantityIsEmptyText": "La cantidad de registro no puede estar vacía.",
+        "logQuantityQuestionText":"How many <activity> did you do?"
     },
     "enterPasswordViewInfo": {
         "title": "Por favor ingrese la contraseña para continuar",
@@ -558,7 +562,8 @@
         "buttonLetsDoItText": "Hagámoslo ya",
         "allRightsReservedText": "© 2022 Focus Bear Todos los derechos reservados.",
         "confirmText": "Sólo quiero confirmar por última vez que estás de acuerdo con esto; durante el próximo minuto no podrás usar otras aplicaciones mientras realices la inducción",
-        "buttonConfirmLetsDoItText": "Sí, hagámoslo, tengo un minuto"
+        "buttonConfirmLetsDoItText": "Sí, hagámoslo, tengo un minuto",
+        "buttonNeedMoreTimeText": "Uhh I need a few more minutes"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
@@ -585,6 +590,12 @@
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puede iniciar sesión o registrarse. Si no la ve, intenta abrir Safari manualmente. Si aún no puedes verla",
-        "buttonClickHereText": "Haga clic aquí"
+        "buttonClickHereText": "Haga clic aquí",
+    },
+    "onboardingCardsInfo": {
+        "title": "Important Notes",
+        "controllingBrowserText": "Controlling Your Browser",
+        "controllingBrowserDescription":"When you next open a browser tab, you'll see this popup. The reason we ask for permissions to control your browser is so we can block distracting websites when you activate focus mode.",
+        "buttonGotItText":"Got it"
     }
 }

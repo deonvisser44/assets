@@ -3,7 +3,7 @@
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
         "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
-        "preloadFocusModesDoneText": "Te he configurado un modo de enfoque que tiene algunas aplicaciones y URLs que quizás quieras usar cuando estés trabajando. Abre la configuración desde el menú Focus Bear para cambiar cuáles aplicaciones y URLs están permitidas.",
+        "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
             {
                 "name": "Respiración Consciente",
@@ -12,7 +12,8 @@
                     "https://www.youtube.com/watch?v=HhMXYsk_Pvo"
                 ]
             }
-        ]
+        ],
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=TvfNJ1AaT9M"
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debe lograr antes de poder usar su computadora.",
@@ -30,7 +31,7 @@
         "buttonGetKookyText": "Ponte loco/loca",
         "buttonReviseQuantityText": "Revisa Cantidad",
         "buttonBeginText": "Comenzar",
-        "visualizeDescriptionText": "Antes de comenzar tu rutina matutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis and colleagues” en 2020 indican que enfocarse en un punto fijoagudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
+        "visualizeDescriptionText": "Antes de comenzar tu rutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis and colleagues” en 2020 indican que enfocarse en un punto fijoagudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
         "titleGetFocused": "Concéntrate"
     },
     "common": {
@@ -38,6 +39,7 @@
         "unlockMachineButtonText": "Desbloquear la computadora",
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
+        "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -78,7 +80,19 @@
         "brokenAppReasonText": "La app está dañada",
         "habitsHardReasonText": "Mis hábitos son demasiado difíciles - no los puedo realizar",
         "emailTitle": "Tu correo electrónico (si deseas que te respondamos):",
-        "buttonPostponeText": "Posponer"
+        "buttonPostponeText": "Posponer",
+        "noPurchasesFoundText": "No se encontraron compras.",
+        "someProblemInCredentialText": "Se presentó un problema. Inicie sesión nuevamente.",
+        "askUninstallReasonText2": "Ay no, lo siento, parece que lo decepcionamos. Estamos en las primeras etapas de este producto y realmente queremos recibir comentarios para mejorarlo. ¿Podría decirnos por qué está desinstalando?",
+        "minimumCharacterText": "(Mínimo 10 caracteres)",
+        "secondsText": "segundos",
+        "minuteText": "minuto",
+        "minutesText": "minutos",
+        "hourText": "hora",
+        "hoursText": "horas",
+        "timeIncorrectText":"Your system time seems to be incorrect - it's saying the current time is <SYSTEM_TIME> but the actual time is <TRUE_TIME>. Focus Bear won't work properly if you don't have your system time configured correctly. Once you have adjusted the time settings, click \"I am ready to start my habits\" button below.",
+        "buttonIAmReadyText":"I am ready to start my habits",
+        "buttonInstructionsText":"Click Here to see instructions for fixing your time settings"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -179,7 +193,7 @@
             "buttonUnlockText": "Desbloquear"
         },
         "shutOffAbortDoneInfo": {
-            "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses su computadora a altas horas de la noche. Estamos desbloqueando su máquina ahora. Su rutina matutina aún se activará a las <STARTTIME>. Espero que pueda recuperar el sueño durante el día.",
+            "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses tu computadora muy tarde en la noche. Estamos desbloqueando tu computadora ahora. Tu rutina matutina aún se activará a las <STARTTIME>. Espero que puedas recuperar el sueño durante el día.",
             "unlockingText": "Desbloqueo en"
         }
     },
@@ -191,15 +205,15 @@
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
         "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, gainyourscreentime.com/settings",
-        "buttonEditSettingsText": "Edit Settings",
-        "buttonAdvancedText": "Advanced",
-        "description": "Dale clic a \"Editar Configuraciones\" para modificar su configuración existente. Si eres una usuario avanzado/a haz clic en \"Avanzado\"para ver o editar la configuración JSON",
-        "settingIsValidText": "Su configuración ha sido validada y se aplicará ahora."
+        "buttonEditSettingsText": "Editar Configuración",
+        "buttonAdvancedText": "Avanzado",
+        "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
+        "settingIsValidText": "Tu configuración ha sido validada y se aplicará ahora."
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "Ofrecemos un período de prueba de 31 días, durante el cual puede evaluar Focus Bear en su tiempo libre. La versión de prueba es una versión de prueba TOTALMENTE funcional y puede evaluar todas las funciones.",
-        "buttonStartTrialText": "EMPIEZA LA PRUEBA GRATUITA DE 31 DÍAS",
+        "description": "Ofrecemos un período de prueba de 21 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
+        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 31 DÍAS",
         "buttonContinueTrialText": "Continuar con la prueba",
         "buttonRegisterNowText": "Regístrate ahora",
         "trialPeriodText": "Periodo de prueba",
@@ -235,14 +249,19 @@
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
-        "menuItemEnableOfficeModeTitle": "Habilitar el modo de oficina",
+        "menuItemEnableOfficeModeTitle": "Modo de oficina habilitado",
+        "menuItemDisableOfficeModeTitle": "Modo FMH habilitado",
         "menuItemQuitTitle": "Abandonar",
         "untilTimeText": "Prendido hasta <TIME>",
         "onText": "Prendido",
         "noOfficeFriendlyActivityAlertText": "No tiene ninguna actividad de descanso para la oficina. Quieres que le agregue una para que se pare y estire por 20 segundos?",
         "noOfficeFriendlyActivityButtonFirstText": "Si, suena bien",
         "noOfficeFriendlyActivityButtonSecondText": " ¡No, soy una maquina! No necesito descanso.",
-        "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro)."
+        "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro).",
+        "menuItemUpgradeNowTitle": "Actualizar ahora",
+        "subscriptionExpiredText": "Su suscripción ha expirado",
+        "menuItemStartBreakTitle": "Descanso de inicio",
+        "menuItemBrainDumpTitle": "Brain Dump"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -253,7 +272,7 @@
         "checkBoxPromptToAskNextHabitText": "De vez en cuando puedes avisarme para que recuerde el siguiente hábito",
         "titleSelectLanguage": "Seleccionar Idioma:",
         "alertChangeLanguageMessageText": "¿Estás seguro de que quieres cambiar el idioma a <LANGUAGE>?",
-        "buttonAdvancedText": "Avanzado...",
+        "buttonAdvancedText": "Avanzado",
         "pomodoroModeDurationText": "Duración del Modo de Pomodoro:",
         "minutesText": "minutes",
         "hardCorePomodoroEnabledText": "Modo de Pomodoro Súper habilitado para concentrarse en <FOCUSTYPE> por <COUNT> pomodoros el/los <DAYS>.",
@@ -268,9 +287,11 @@
         "workDurationZeroErrorText": "Duración del trabajo no puede ser 0.",
         "breakDurationEmptyErrorText": "Duración del descanso no puede estar vacío.",
         "breakDurationZeroErrorText": "Duración del descanso no puede ser 0.",
-        "versionText": "version:",
-        "titleSound": "Sound:",
-        "checkBoxSoundText": "Play sound effects"
+        "versionText": "Version:",
+        "titleSound": "Sonido:",
+        "checkBoxSoundText": "Reproducir efectos de sonido",
+        "statisticsText": "Estadísticas:",
+        "updatesText": "Actualizaciones:"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -305,12 +326,17 @@
         "toolTipRemove": "Remover",
         "toolTipDuplicate": "Duplicar",
         "hardCorePomodoroIsOnMessageText": " El modo Pomodoro Súper está activado. Por favor ancele el modo Pomodoro Súper para eliminarlo.",
-        "buttonAdvancedText": "Avanzado...",
+        "buttonAdvancedText": "Avanzado",
         "defaultFocusText": "¡Anarquía completa! No bloquees nada 😬",
         "meetingsFocusText": "Reuniones",
         "disablePomodoroModeAlertText": "El modo de enfoque seleccionado está habilitado en el modo pomodoro Súper. Por favor deshabilite el modo pomodoro Súper para eliminar esto.",
         "buttonAddFocusTypeText": "Agrega modo de enfoque",
-        "buttonDeleteFocusTypeText": "Eliminar"
+        "buttonDeleteFocusTypeText": "Eliminar",
+        "allowUrlInstructionFirstText": "Para permitir un determinado sitio web escribe: dominio.com",
+        "allowUrlInstructionSecondText": "Para permitir todos los subdominios de un sitio web escribe: *.domain.com",
+        "allowUrlInstructionThirdText": "Para permitir cualquier página web que contenga texto en la URL o el título de la página: reactnative o React Native",
+        "blockUrlInstructionFirstText": "Para bloquear un determinado sitio web escribe: dominio.com",
+        "blockUrlInstructionSecondText": "Para bloquear todos los subdominios de un sitio web escribe: *.domain.com"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -322,7 +348,8 @@
         "buttonSelectText": "Select",
         "pleaseSelectScriptText": " Por favor seleccione un script de Apple.",
         "toolTipAdd": "Agregar",
-        "toolTipRemove": "Remover"
+        "toolTipRemove": "Remover",
+        "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -356,7 +383,7 @@
             "buttonContinueText": "Continuar",
             "focusTableColumnFirstText": "Tipo de Enfoque",
             "focusTableColumnSecondText": "Hora de inicio",
-            "focusTableColumnThirdText": "Duration",
+            "focusTableColumnThirdText": "Duración",
             "focusTableColumnFourthText": "Trabajo logrado",
             "focusTableColumnFifthText": "Distracciones presentadas",
             "activityTableColumnFirstText": "Actividad",
@@ -367,7 +394,7 @@
             "titleFocusSummaryText": "Resumen de Enfoque:",
             "totalFocusTimeText": "Tiempo total de enfoque: <TIME>",
             "buttonNeedMoreTimeText": " Necesito un minuto más",
-            "buttonStillNeedMoreTimeText": "I still need to work more"
+            "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Está seguro? Es bastante fácil distraerse sin usar un modo de enfoque más restrictivo",
@@ -399,7 +426,8 @@
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "enterValidValueText": "Por favor ingrese una cifra válida.",
-        "quantityIsEmptyText": "La cantidad de registro no puede estar vacía."
+        "quantityIsEmptyText": "La cantidad de registro no puede estar vacía.",
+        "logQuantityQuestionText":"How many <activity> did you do?"
     },
     "enterPasswordViewInfo": {
         "title": "Por favor ingrese la contraseña para continuar",
@@ -418,11 +446,11 @@
         "titleChangePassword": "Cambiar Contraseña",
         "newPasswordPlaceholderText": "Nueva Contraseña",
         "confirmPasswordPlaceholderText": "Confirma Contraseña",
-        "infoText": "Necesitarás ingresar su contraseña - Al abrir preferencias, al desactivar una rutina vespertina y al desactivar la rutina matutina.",
+        "infoText": "Deberás proporcionar la contraseña cuando canceles tu rutina matutina o vespertina o incluso el modo súper pomodoro. Puedes restablecer la contraseña en cualquier momento, sólo tiene que esperar 24 horas.",
         "buttonSetPasswordText": "Configurar la Contraseña",
         "buttonChangePasswordText": "Cambiar Contraseña",
-        "passwordNotSetText": "No tienes una contraseña configurada.",
-        "passwordSetText": "Tienes una contraseña activa establecida.",
+        "passwordNotSetText": "Si tienes problemas para mantener tus hábitos, pide a un compañero de piso, tu pareja o a alguien con quien convivas que establezca una contraseña. No podrás saltarte los hábitos sin la contraseña.",
+        "passwordSetText": "Responsabilidad adicional: tienes una contraseña activa configurada y no puedes saltarte tus hábitos sin que un amigo ingrese la contraseña.",
         "passwordBlankAlertTitle": "La contraseña no puede estar en blanco.",
         "passwordBlankAlertSubTitle": "Por favor introduce una contraseña válida.",
         "confirmPasswordBlankAlertTitle": "Confirmar contraseña no puede estar en blanco.",
@@ -431,13 +459,14 @@
         "passwordChagedAlertTitle": "Contraseña cambiada correctamente.",
         "passwordNotMatchAlertTitle": "Las contraseñas no coinciden.",
         "passwordNotMatchAlertSubTitle": "Confirmar contraseña no coincide con la contraseña principal. Por favor, vuelva a escribirla.",
-        "buttonDisablePasswordText": "Disable Password",
-        "passwordDisableAskText": "Are you sure you want to disable your password?",
-        "passwordDisableDoneText": "Your password has been disabled."
+        "buttonDisablePasswordText": "Deshabilitar mi contraseña",
+        "passwordDisableAskText": "¿Estás seguro de que deseas deshabilitar tu contraseña?",
+        "passwordDisableDoneText": "Su contraseña ha sido deshabilitada"
     },
     "blockedUrlsViewInfo": {
         "title": " Las URL siempre bloqueadas",
-        "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación."
+        "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación.",
+        "subTitleText": "Bloquea estas URL incluso si no estás en un bloque de enfoque. Es posible que desees colocar redes sociales o sitios de noticias que preferirías no usar en ningún momento. Siempre puedes configurar una actividad de rutina vespertina la que permita explícitamente el acceso a Facebook para seguir conectado, excepto durante su rutina matutina o día de trabajo."
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "¡Vas muy bien!",
@@ -477,8 +506,11 @@
         "titleNameText": "Nombre:",
         "titleEmailIdText": "Correo electrónico:",
         "buttonLogoutText": "Cerrar Sesión",
-        "registeredVersionText": "Versión registrada",
-        "logoutAlertText": "¿Estás seguro de que deseas cerrar la sesión?"
+        "registeredVersionText": "Suscripción activa",
+        "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
+        "titleUserIdText": "Identificación de usuario:",
+        "restoreText": "If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
+        "buttonRestoreText": "Sync Payment Status"
     },
     "activityPostponeInfo": {
         "posponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -489,19 +521,81 @@
         "buttonPostponeHabitText": "Posponer Hábito",
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
-        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?"
+        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
+        "buttonEnableOfficeModeText": "Switch to office mode",
+        "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina"
     },
     "brainDumpVcInfo": {
-        "title": "Focus Bear - Brain dump",
-        "titleIntentionText": "Intention:",
-        "titleTimeRemainingText": "Time remaining:",
-        "titleWorkNoteFirst": "Things I'll do in my next break:",
-        "titleWorkNoteSecond": "Things you wanted to do in your break:"
+        "title": "Focus Bear - Volcado de cerebros",
+        "titleIntentionText": "Intención:",
+        "titleTimeRemainingText": "Tiempo restante:",
+        "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
+        "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:"
     },
     "askLogInVcInfo": {
-        "title": "Win your habits.\nAmp up your productivity.",
-        "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you Set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
-        "buttonSignInText": "Sign In",
-        "buttonSignUpText": "Sign Up"
+        "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
+        "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
+        "buttonSignInText": "Iniciar sesión",
+        "buttonSignUpText": "Regístrate"
+    },
+    "upgradeNowVcInfo": {
+        "pointFirstText": "Rutinas de hábitos personalizadas",
+        "pointSecondText": "Descansos que aumentan la productividad",
+        "pointThirdText": "Modos de enfoque personalizables",
+        "pointFourthText": "Seguimiento automático de objetivos",
+        "buttonUpgradeNowText": "Actualizar ahora",
+        "moneyBackText": "30 días de garantía con devolución de dinero",
+        "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
+        "buttonRestoreText": "Sincronizar estado de pago",
+        "subscriptionExpiredText": "Su suscripción ha expirado"
+    },
+    "onboardingPostponeVcInfo": {
+        "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
+        "selectMinutesText": "Seleccionar cuantos minutos a posponer:",
+        "buttonPostponeText": "Posponer inducción"
+    },
+    "welcomeOnboardingVcInfo": {
+        "subTitle": "¡Bienvenido a bordo!",
+        "descriptionFirstText": "Espero poder ayudarte a formar hábitos saludables y realizar un bloques de trabajo más profundos. El proceso de inducciión demora cinco minutos y requiere el 100 % de tu atención",
+        "descriptionSecondText": "No podrás usar otras aplicaciones durante la inducción. ¿Tienes tiempo ahora o lo hacemos un poco más tarde?",
+        "buttonLaterText": "Un poco más tarde, por favor",
+        "buttonLetsDoItText": "Hagámoslo ya",
+        "allRightsReservedText": "© 2022 Focus Bear Todos los derechos reservados.",
+        "confirmText": "Sólo quiero confirmar por última vez que estás de acuerdo con esto; durante el próximo minuto no podrás usar otras aplicaciones mientras realices la inducción",
+        "buttonConfirmLetsDoItText": "Sí, hagámoslo, tengo un minuto",
+        "buttonNeedMoreTimeText": "Uhh I need a few more minutes"
+    },
+    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
+    "customLoginVcInfo": {
+        "titleSignIn": "Iniciar sesión",
+        "titleSignUp": "Registrarse",
+        "subTitleCreateAccount": "Crear una cuenta",
+        "subTitleWelcomeback": "Bienvenido de nuevo",
+        "titleEmailAddress": "Correo electrónico",
+        "titlePassword": "Contraseña",
+        "titleConfirmPassword": "Confirma tu contraseña",
+        "buttonSignInText": "Iniciar sesión",
+        "buttonCreateAccountText": "Crear una cuenta",
+        "titleEmailIsBlank": "El correo electrónico no puede estar vacío.",
+        "emailInvalidText": "Ingrese un correo electrónico válido.",
+        "titlePasswordIsBlank": "La contraseña no puede estar vacía.",
+        "passwordInvalidText": "Por favor ingrese una contraseña válida.",
+        "titleInvalidEmail": "El correo electrónico no es válido",
+        "titleConfirmPasswordBlank": "La contraseña de confirmación no puede estar vacía.",
+        "confirmPasswordInvalidText": "Ingrese una \"Confirmar contraseña\" válida.",
+        "titlePasswordNotMatch": "Las contraseñas no coinciden.",
+        "confirmPasswordNotMatchText": "La contraseña de confirmación no coincide con la contraseña principal. Vuelve a ingresarla.",
+        "titleSignupFailed": "Error al registrarse.",
+        "titleLoginFailed": "Error al iniciar sesión."
+    },
+    "loginHelpVcInfo": {
+        "title": "Debería abrirse una ventana de incógnito donde puede iniciar sesión o registrarse. Si no la ve, intenta abrir Safari manualmente. Si aún no puedes verla",
+        "buttonClickHereText": "Haga clic aquí",
+    },
+    "onboardingCardsInfo": {
+        "title": "Important Notes",
+        "controllingBrowserText": "Controlling Your Browser",
+        "controllingBrowserDescription":"When you next open a browser tab, you'll see this popup. The reason we ask for permissions to control your browser is so we can block distracting websites when you activate focus mode.",
+        "buttonGotItText":"Got it"
     }
 }

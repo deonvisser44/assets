@@ -468,7 +468,7 @@
         "titleChangePassword":"Change Password",
         "newPasswordPlaceholderText":"New Password",
         "confirmPasswordPlaceholderText":"Confirm Password",
-        "infoText":"You'll need to provide the password when you cancel your morning/evening routine or super pomodoro mode. You can reset the password at any time - you just have to wait 24hrs.",
+        "infoText":"You can reset the password at any time (but it has a 24hr cooling off period before it resets to stop you from cheating yourself). You'll need to provide the password when you cancel your morning/evening routine or super pomodoro mode. You can reset the password at any time - you just have to wait 24hrs.",
         "buttonSetPasswordText":"Set Password",
         "buttonChangePasswordText":"Change Password",
         "passwordNotSetText":"If you're struggling to stick to your habits, get a housemate/partner to set a password. You won't be able to skip habits without the password.",

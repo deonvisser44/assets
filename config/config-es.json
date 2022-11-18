@@ -36,7 +36,9 @@
         "titleGetFocused": "Concéntrate",
         "activitySkippedText":"<ACTIVITY> Posponer!",
         "lastActivitySkippedText":"<ACTIVITY> Postponer! Has completado tu tiempo frente a la pantalla. 💪",
-        "buttonSkipHabitText":"Postponer por hoy"
+        "buttonSkipHabitText":"Postponer por hoy",
+        "buttonPostponeBreakText":"Postpone break for five minutes",
+        "breakDurationText":"Break Activites Duration: <DURATION>"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -106,8 +108,9 @@
         "graphDateText":"Fecha",
         "graphTimeText":"Tiempo",
         "buttonBackToMyHabitsText":"Regresar a mis hábitos",
-        "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet."
-
+        "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet.",
+        "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
+        "buttonDontTellAgainText":"Got it - don't tell me again"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -321,7 +324,10 @@
         "descriptionCuddlyBearText":"Modo de osito de peluche: amable y gentil: te da el beneficio de la duda cuando abres una URL no permitida. Te deja permitir temporalmente las URL bloqueadas durante un modo de enfoque.",
         "checkBoxGrizzlyBearText":"Modo de oso pardo",
         "descriptionGrizzlyBearText":"Modo Grizzly Bear: súper estricto: bloquea inmediatamente las URL que no están permitidas y no se permita permitirlas hasta que finalice el modo de enfoque.",
-        "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí."
+        "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
+        "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
+        "titleDockIcon":"Dock icon:",
+        "checkBoxShowDockIconText":"Show Dock icon"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -389,6 +395,7 @@
         "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com",
         "autoOnDoNotDisturbText":"Enciende NO MOLESTAR automáticamente cada vez que des inicio a Focus Mode.",
         "needDndPermissionText":"Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?"
+
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -522,6 +529,7 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
+
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -656,6 +664,7 @@
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un anuncio de 30 segundos, así tu puedes posponer tu descanso si estas muy ocupado. ¡También detectamos si estas en reunión y no mostramos descansos ya que eso podría causar un momento incomodo si estas compartiendo pantalla!",
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente"
+
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",

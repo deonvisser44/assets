@@ -112,7 +112,8 @@
         "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet.",
         "alertAppRestartText":"Focus Bear se reinicia automáticamente si se cierra o bloquea a la fuerza para asegurarse de ayudarte a combatir las distracciones. Si quieres salir de la aplicación/tomar un descanso, use las funciones para salir en la barra de menú en Focus Bear menú.",
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
-        "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando."
+        "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
+        "notificationFirefoxText":"FYI we can't block distractions in Firefox yet but if you use Chrome or Safari, we'll be here to support you to stay on track"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -329,7 +330,11 @@
         "pomodoroDescriptionText":"Modo Pomodoro tiene ciclos entre trabajo duro cuando el modo de enfoque ha sido encendido (y las distracciones apagadas) y periodos de descanso.",
         "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
         "titleDockIcon":"Icono de muelle:",
-        "checkBoxShowDockIconText":"Mostrar icono de muelle"
+        "checkBoxShowDockIconText":"Mostrar icono de muelle",
+        "titleSkipHabits":"Friction level for skipping habits:",
+        "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
+        "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
+        "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -526,12 +531,11 @@
         "randomPhraseRightChoice4": "Puedo jubilarme ahora porque sabes exactamente lo que estás haciendo.🙂",
         "randomPhraseWrongChoice1": "Uy, no del todo - es <CORRECT_HABIT_NAME>",
         "randomPhraseWrongChoice2": "Casi - es <CORRECT_HABIT_NAME>",
-        "Title": "¿ Qué sigue?",
+        "title": "¿ Qué sigue?",
         "description": "Quiero asegurarme de que usted no se vuelva demasiado dependiente de mí. Habrá días en los que no tenga acceso a su computadora, pero eso no significa que no cumplirá con sus hábitos. Piense en mí como ruedas de entrenamiento de una bicileta: estoy aquí para ayudarle a consolidar sus hábitos hasta que se vuelvan automáticos. Hagamos un ejercicio rápido para asegurarnos de que recuerda cómo acumular sus hábitos incluso cuando no estoy presente.",
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
-
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -587,7 +591,8 @@
         "titleIntentionText": "Intención:",
         "titleTimeRemainingText": "Tiempo restante:",
         "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
-        "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:"
+        "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
+        "titleNotFocusSession": "You're currently not in a focus session"
     },
     "askLogInVcInfo": {
         "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
@@ -702,5 +707,11 @@
         "buttonAllowText": "Si – solo esta vez",
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes"
+    },
+    "easyPostponeVcInfo": {
+        "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
+        "titleSelectMinutes": "Select minutes to postpone:",
+        "buttonPostponeText": "Postpone",
+        "buttonDeactivateText": "Deactivate Focus Bear for 4 hours"
     }
 }

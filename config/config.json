@@ -324,7 +324,7 @@
         "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here.",
         "titleDockIcon":"Dock icon:",
         "checkBoxShowDockIconText":"Show Dock icon",
-        "titleSkipHabits":"Skip Habits easiness:",
+        "titleSkipHabits":"Friction for skipping habits:",
         "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
         "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
         "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"

@@ -1,6 +1,7 @@
-{"welcomeInfo":
-    {"welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+{
+    "welcomeInfo": {
+        "welcomeMessageHeading": "Bienvenido a Focus Bear",
+        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\n\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\n\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
@@ -329,7 +330,10 @@
         "buttonExportLogsText":"Haga clic aquí para exportar registros y compartirlos con el Equipo de Soporte.",
         "buttonPanelExportLogsText":"Exportar Registros",
         "panelExportLogsText":"Exporte registros para compartir con el Equipo de Soporte de Focus Bear",
-        "exportSuccessText":"Sus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>"
+        "exportSuccessText":"Sus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
+        "titleMeetingDetection":"Meeting detection",
+        "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
+        "checkBoxMeetingDetectionText":"Enable meeting detection"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -456,7 +460,10 @@
             "title": "¿Necesitará usar otras aplicaciones durante la reunión? Si no, puedo bloquear todo lo demás para ayudarte a concentrarte.",
             "subTitle": "Al seleccionar \"Bloquear todo lo demás\", la aplicación iniciará el modo de enfoque \"Reuniones\".",
             "buttonBlockText": "Bloquea todo lo demás",
-            "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión"
+            "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión",
+            "buttonFalseDetectionText":"False positive: I'm not in a meeting",
+            "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
+            "buttonDisableText":"Disable meeting detection"
         }
     },
     "pomodoroInfo": {
@@ -539,6 +546,7 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
+
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -613,7 +621,10 @@
         "moneyBackText": "30 días de garantía con devolución de dinero",
         "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
         "buttonRestoreText": "Sincronizar estado de pago",
-        "subscriptionExpiredText": "Su suscripción ha expirado"
+        "subscriptionExpiredText": "Su suscripción ha expirado",
+        "toolTipCopyId":"Copy user id",
+        "titleUserId":"Your user id:",
+        "toolTipCopied":"Copied"
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -679,7 +690,10 @@
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un anuncio de 30 segundos, así tu puedes posponer tu descanso si estas muy ocupado. ¡También detectamos si estas en reunión y no mostramos descansos ya que eso podría causar un momento incomodo si estas compartiendo pantalla!",
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
-        "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear."
+       "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear.",
+        "titleSignInSuccessful":"Sign in successful",
+        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it."
+
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
@@ -766,5 +780,6 @@
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
         "buttonGotItText":"Adelante"
+
     }
 }

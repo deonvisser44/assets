@@ -221,7 +221,7 @@
         "title":"Enter settings JSON below:",
         "buttonSaveText":"Save",
         "visitText":"Visit <SETTINGURL> to generate settings",
-        "settingUrl":"https://dashboard.focusbear.io",
+        "settingUrl":"https://settings.focusbear.io",
         "schemaError":"Your settings can not be validated.",
         "buttonOkText":"OK",
         "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at https://dashboard.focusbear.io",

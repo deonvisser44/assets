@@ -106,13 +106,14 @@
         "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
         "buttonDontTellAgainText":"Got it - don't tell me again",
         "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running.",
-        "notificationFirefoxText":"FYI we can't block distractions in Firefox yet but if you use Chrome or Safari, we'll be here to support you to stay on track"
+        "notificationFirefoxText":"FYI we can't block distractions in Firefox yet but if you use Chrome or Safari, we'll be here to support you to stay on track",
+        "expiredBarText":"Expired"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
         "abortingCountDownInfo":{
             "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about cancelling.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, we're really sorry and would appreciate your feedback.",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, we're really sorry and would appreciate your feedback.",
             "pleaseEmailText":"Please email",
             "buttonAbortCancelText":"I didn’t mean it. Let me do my habits!"
         },
@@ -133,24 +134,26 @@
             },
             "dropDown_3":{
                 "title":"My habits are too hard - I can't handle them",
-                "description":"Ah understandable. Would you like to reset your habits to be 30 seconds each and max 5 minutes? A short morning routine is better than nothing. You can build from there.",
+                "description":"Ah understandable. Would you like to reset your habits to be 30 seconds each and max 5 minutes? A short routine is better than nothing. You can build from there.",
                 "buttonStartSmallText":"Yeah - I'll start small",
-                "buttonDontWantText":"NO I don't want a \nmorning routine at all!",
+                "buttonDontWantText":"NO I don't want a \nroutine at all!",
                 "emailTitle":"Your Email (if you want us to reply):",
                 "startSmallInfo":{
                     "subTitle":"Starting small..",
                     "activityResetText":"We’ve reset your habits and break activities for you. They’re now each only 30 seconds long which should make it more manageable.",
-                    "activityRemovedText":"We removed a few activities so that the total morning routine is 5 minutes long.",
+                    "activityRemovedText":"We removed a few activities so that the total routine is 5 minutes long.",
                     "changeSettingsText":"You can alter your settings later from the top toolbar icon <icon>",
                     "shareFeedbackText":"Can you share some feedback about why your habits were too hard?﹡",
-                    "buttonTitle":"Start shortened routine"    
+                    "buttonTitle":"Start shortened routine"
+                    
                 },
                 "givingUpInfo":{
-                    "subTitle":"Giving up on your morning routine",
+                    "subTitle":"Giving up on your routine",
                     "description":"No problems. You’re in control.",
                     "changeSettingsText":"Feel free to reactivate Focus Bear from top toolbar icon <icon>",
                     "shareFeedbackText":"Can you share feedback about the app?﹡",
                     "buttonTitle":"Deactivate routine + breaks"
+                    
                 }
             },
             "dropDown_4":{
@@ -169,7 +172,7 @@
         "quittingTitle":"Quitting..",
         "quittingCountDownInfo":{
             "subTitle":"Are you sure you want to Quit? Please take 10 seconds to reflect on whether you are serious about quitting.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonQuitCancelText":"I didn’t mean it. Let me do my habits!"
         },
@@ -282,7 +285,8 @@
         "toolTipOfficeMode":"When you're working from the office, I will only give you appropriate break activities (e.g. chair stretches rather than pushups).",
         "toolTipWfhMode":"No-one's around! You can do break activities that are a bit more fun (e.g. Dance like no-one's watching).",
         "menuItemToolsTitle":"Tools >",
-        "menuItemOpenToolboxTitle":"Open Toolbox"
+        "menuItemOpenToolboxTitle":"Open Toolbox",
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -332,8 +336,10 @@
         "exportSuccessText":"Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory",
         "titleMeetingDetection":"Meeting detection",
         "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
-        "checkBoxMeetingDetectionText":"Enable meeting detection"
-
+        "checkBoxMeetingDetectionText":"Enable meeting detection",
+        "titleHideDock":"Hide dock:",
+        "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
+        "checkBoxHideDockText":"Hide dock during activities having allowed apps."
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -384,8 +390,8 @@
         "titleBlockedSelectedUrls":"Block selected urls (works with Safari and Chrome only)",
         "titleAllowUrlListApproch":"Block everything except safe sites that I choose",
         "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
-        "allowUrlsQuestionText":"How do you want to allow URLs?",
-        "blockUrlsQuestionText":"How do you want to block URLs?"
+        "allowUrlsQuestionText":"Which URLs do you want to allow?",
+        "blockUrlsQuestionText":"Which URLs do you want to block?"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -463,7 +469,9 @@
             "buttonCancelText":"It's ok for me to use other apps during this meeting",
             "buttonFalseDetectionText":"False positive: I'm not in a meeting",
             "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
-            "buttonDisableText":"Disable meeting detection"
+            "buttonDisableText":"Disable meeting detection",
+            "buttonGotItText":"Got it",
+            "buttonCheckBoxText":"Don't show this again when I join meetings"
         }
     },
     "pomodoroInfo":{
@@ -497,7 +505,7 @@
         "alertConfirmResetPasswordTitle":"Reset Password",
         "alertConfirmResetPasswordSubTitle":"Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle":"Password reset in progress",
-        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours."
+        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours.",
     },
     "passwordPreferencesInfo":{
         "titleSetPassword":"Set Password",
@@ -595,7 +603,12 @@
         "buttonEnableOfficeModeText": "Switch to office mode",
         "officeModeEnableText": "Ok I'll give you some break activities that are appropriate to do in an office environment.",
         "postponedLastHabitText": "You've postponed your habits a few times. Are you sure you want to postpone again?",
-        "buttonDoHabitText": "I changed my mind - I'll do my habits"
+        "buttonDoHabitText": "I changed my mind - I'll do my habits",
+        "titlePostponeOrSkip": "Want to postpone the break or skip it completely?",
+        "buttonSkipCompletelyText": "Skip Completely",
+        "titleAskOfficeMode": "Do you not have time for a break right now or are you in the office and it's not appropriate to do <ACTIVITY>?",
+        "buttonDontHaveTimeText": "I don't have time",
+        "buttonInTheOffIceText": "I'm in the offIce"
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Brain dump",
@@ -781,4 +794,5 @@
         "buttonNextText":"Next",
         "buttonGotItText":"Onwards"
     }
+    
 }

@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\n\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\n\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de la respiración consciente.\n\nMientras respiras profundamente, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
@@ -107,13 +107,14 @@
         "alertAppRestartText":"Focus Bear se reinicia automáticamente si se cierra o bloquea a la fuerza para asegurarse de ayudarte a combatir las distracciones. Si quieres salir de la aplicación/tomar un descanso, use las funciones para salir en la barra de menú en Focus Bear menú.",
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
-        "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado."
-    },
+        "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
+         "expiredBarText":"Caducado"
+     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
             "subTitle": "¿Está seguro de que quieres renunciar a sus hábitos? Tómese 10 segundos para reflexionar sobre si realmente quieres cancelar.",
-            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho!",
+            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonAbortCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
@@ -134,20 +135,20 @@
             },
             "dropDown_3": {
                 "title": "Mis hábitos son demasiado difíciles - no puedo lo puedo manejar",
-                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina matutina es mejor que nada. Puedes construir desde allí.",
+                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina es mejor que nada. Puedes construir desde allí.",
                 "buttonStartSmallText": "Sí, voy a empezar poco a poco",
-                "buttonDontWantText": "¡NO quiero una rutina matutina en absoluto!",
+                "buttonDontWantText": "¡NO quiero una rutina en absoluto!",
                 "emailTitle": "Su correo electrónico (si quiere que le respondamos):",
                 "startSmallInfo": {
                     "subTitle": "Empezando poco a poco..",
                     "activityResetText": "Hemos restablecido sus hábitos y actividades de descanso para usted. Ahora tienen sólo 30 segundos de duración, lo que debería hacerlos más manejables.",
-                    "activityRemovedText": "Eliminamos algunas actividades para que la rutina matutina total dure 5 minutos.",
+                    "activityRemovedText": "Eliminamos algunas actividades para que la rutina total dure 5 minutos.",
                     "changeSettingsText": "Puede modificar su configuración más tarde desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir algunos comentarios sobre por qué sus hábitos eran demasiado difíciles?﹡",
                     "buttonTitle": "Iniciar rutina acortada"
                 },
                 "givingUpInfo": {
-                    "subTitle": "Renunciar a su rutina matutina",
+                    "subTitle": "Renunciar a su rutina",
                     "description": "No hay problema. Tienes el control.",
                     "changeSettingsText": "No dude en reactivar Focus Bear desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir comentarios sobre la aplicación?﹡",
@@ -170,7 +171,7 @@
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
             "subTitle": "¿Seguro que quieres salir? Tómese 10 segundos para reflexionar sobre si realmente quieres abandonar.",
-            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
+            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonQuitCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
@@ -221,10 +222,10 @@
         "title": "Ingrese la configuración JSON a continuación:",
         "buttonSaveText": "Guardar",
         "visitText": "Visite <SETTINGURL> para generar configuraciones",
-        "settingUrl": "focusbear.io/settings-generator",
+        "settingUrl": "https://settings.focusbear.io",
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
-        "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://settings.focusbear.io",
+        "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://dashboard.focusbear.io",
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
         "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
@@ -260,10 +261,12 @@
     "menuInfo": {
         "menuItemReactivateTitle": "Reactivar",
         "menuItemEnterLicenseKeyTitle": "Introduzca la clave de la licencia",
+        "menuItemSettingsTitle": "Configuraciones",
         "menuItemPreferencesTitle": "Preferencias",
         "menuItemExportStatisticsTitle": "Exportar estadísticas",
         "menuItemFocusTitle": "Enfoque",
         "menuItemHardcorePomodoroModeTitle": " Modo de Pomodoro Súper",
+        "menuItemFocusPreferencesTitle": "Preferencias de enfoque",
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
@@ -283,7 +286,8 @@
         "toolTipOfficeMode":"Cuando estés trabajando desde la oficina, solo te daré actividades de descanso apropiadas (por ejemplo, estiramientos de silla en lugar de flexiones).",
         "toolTipWfhMode":"¡No hay nadie cerca! Puedes hacer actividades de descanso que sean un poco más divertidas (por ejemplo, bailar como si nadie estuviera mirando).",
         "menuItemToolsTitle":"Herramientas >",
-        "menuItemOpenToolboxTitle":"Abrir caja de herramientas"
+        "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -331,9 +335,13 @@
         "buttonPanelExportLogsText":"Exportar Registros",
         "panelExportLogsText":"Exporte registros para compartir con el Equipo de Soporte de Focus Bear",
         "exportSuccessText":"Sus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
-        "titleMeetingDetection":"Meeting detection",
-        "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
-        "checkBoxMeetingDetectionText":"Enable meeting detection"
+        "titleMeetingDetection":"Deteccion de reunion",
+        "descriptionMeetingDetectionText":"Habilite la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que está en una llamada.",
+        "checkBoxMeetingDetectionText":"Activar detección de reunion",
+        "titleHideDock":"Ocultar muelle:",
+        "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
+        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
+ 
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -384,8 +392,8 @@
         "titleBlockedSelectedUrls":"Bloquear URL seleccionadas (solo funciona con Safari y Chrome)",
         "titleAllowUrlListApproch":"Bloquear todo excepto los sitios seguros que elija",
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
-        "allowUrlsQuestionText":"¿Cómo deseas permitir las URL?",
-        "blockUrlsQuestionText":"¿Cómo deseas bloquear las URL?"
+        "allowUrlsQuestionText":"Which URLs do you want to allow?",
+        "blockUrlsQuestionText":"Which URLs do you want to block?"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -401,6 +409,7 @@
         "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com",
         "autoOnDoNotDisturbText":"Enciende NO MOLESTAR automáticamente cada vez que des inicio a Focus Mode.",
         "needDndPermissionText":"Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?"
+
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -461,9 +470,11 @@
             "subTitle": "Al seleccionar \"Bloquear todo lo demás\", la aplicación iniciará el modo de enfoque \"Reuniones\".",
             "buttonBlockText": "Bloquea todo lo demás",
             "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión",
-            "buttonFalseDetectionText":"False positive: I'm not in a meeting",
-            "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
-            "buttonDisableText":"Disable meeting detection"
+            "buttonFalseDetectionText":"Falso positivo: No estoy en reunion",
+            "titleFalseDetection":"Lo siento por eso. ¿Estás seguro de que no estás usando una aplicación que está usando tu micrófono? Si nos seguimos equivocando, haga clic en el botón de abajo para desactivar la detección de reuniones.",
+            "buttonDisableText":"Desactivar deteccion de reunion",
+            "buttonGotItText":"Entendido",
+            "buttonCheckBoxText":"Don't show this again when I join meetings"
         }
     },
     "pomodoroInfo": {
@@ -592,11 +603,17 @@
         "buttonPostponeHabitText": "Posponer Hábito",
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
-        "postponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
+        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Cambiar al modo de oficina",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
-        "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos"
+        "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos",
+        "titlePostponeOrSkip": "Quieres posponer el descanso o saltártelo por completo?",
+        "buttonSkipCompletelyText": "Saltar completamente",
+        "titleAskOfficeMode": "No tienes tiempo para un descanso en este momento o estas en la oficina y no es apropiado hacerlo <ACTIVITY>?",
+        "buttonDontHaveTimeText": "No tengo tiempo",
+        "buttonInTheOffIceText": "Estoy en la oficina"
+ 
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
@@ -622,9 +639,10 @@
         "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
         "buttonRestoreText": "Sincronizar estado de pago",
         "subscriptionExpiredText": "Su suscripción ha expirado",
-        "toolTipCopyId":"Copy user id",
-        "titleUserId":"Your user id:",
-        "toolTipCopied":"Copied"
+        "toolTipCopyId":"Copiar identificacion de usuario",
+        "titleUserId":"Su identificacion de usuario:",
+        "toolTipCopied":"Copiado"
+
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -691,8 +709,8 @@
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
        "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear.",
-        "titleSignInSuccessful":"Sign in successful",
-        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it."
+        "titleSignInSuccessful":"Inicio de session exitosa",
+        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo."
 
     },
     "breakWarningVcInfo": {
@@ -756,7 +774,10 @@
         "questionText": "¿Que sitios encuentras como distractores?",
         "description": "Puede bloquear ciertos sitios de forma predeterminada para evitar caer en agujeros de conejo.",
         "bottomText": "Si desea bloquear otros sitios de forma predeterminada, puede cambiar la configuración de Siempre bloqueado en Preferencias.",
-        "buttonContinueText": "Continuar"
+        "buttonContinueText": "Continuar",
+        "enterUrlText": "Ingrese la URL para bloquear:",
+        "buttonAddUrlText": "Agregue url"
+
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Finalizar",
